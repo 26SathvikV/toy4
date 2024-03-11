@@ -1,13 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://b3ny0h26oaoll"]
+[gd_scene load_steps=4 format=3 uid="uid://b3ny0h26oaoll"]
+
+[ext_resource type="Texture2D" uid="uid://bvtgaiig87h8t" path="res://titlePlaceholder.png" id="1_xkmyw"]
+[ext_resource type="FontFile" uid="uid://cinimdaeyn5mq" path="res://Madimi_One/MadimiOne-Regular.ttf" id="2_b83aq"]
 
 [sub_resource type="Theme" id="Theme_tqqj5"]
+default_font = ExtResource("2_b83aq")
+default_font_size = 100
 
 [node name="Node2D" type="Node2D"]
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-theme = SubResource("Theme_tqqj5")
-text = "Gray Goo Scenario"
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xkmyw")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Sprite2D"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1460.0
+offset_top = -500.0
+offset_right = -460.0
+offset_bottom = -200.0
+grow_horizontal = 2
+theme = SubResource("Theme_tqqj5")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "[center]Gray Goo
+Scenario[/center]"

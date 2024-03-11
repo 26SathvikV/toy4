@@ -1,6 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710140442
-icon.svg::CompressedTexture2D::4788974981245751751::1710140438::1710140443::1::::<><>::
+::res://::1710141336
+title.tscn::PackedScene::4380047479835196089::1710141308::0::1::::<><>::
+titlePlaceholder.png::CompressedTexture2D::3899974312238730721::1710140594::1710141407::1::::<><>::
 ::res://github/::1710140413
 ::res://github/workflow/::1710140413
 deploy.txt::TextFile::-1::1710140413::0::1::::<><>::
+::res://Madimi_One/::1710140872
+MadimiOne-Regular.ttf::FontFile::5361696350546638984::1710140872::1710141407::1::::<><>::
+OFL.txt::TextFile::-1::1710140872::0::1::::<><>::
