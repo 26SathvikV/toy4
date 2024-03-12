@@ -1,7 +1,0 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cmv0hujhqohod"]
-
-[ext_resource type="Texture2D" uid="uid://0r3pk8mqlfw4" path="res://resources/textures/purple/texture_05.png" id="1_5hbri"]
-
-[resource]
-albedo_texture = ExtResource("1_5hbri")
-uv1_scale = Vector3(3, 2, 1)
