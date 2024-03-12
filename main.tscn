@@ -1,16 +1,26 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfitidb0v3ddt"]
+[gd_scene load_steps=5 format=3 uid="uid://culun8f4of417"]
 
 [ext_resource type="MeshLibrary" uid="uid://dus3m8fgbhrmr" path="res://resources/meshLibrary/testMeshLib.tres" id="1_creva"]
+[ext_resource type="Script" path="res://code/player.gd" id="2_nrv28"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_cf4oi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2veee"]
+size = Vector3(0.15, 0.4, 0.15)
 
 [node name="main" type="Node3D"]
 
 [node name="camera" type="Camera3D" parent="."]
-transform = Transform3D(0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, -3, 5, 3)
+transform = Transform3D(-4.37114e-08, 0.707107, -0.707107, 0, 0.707107, 0.707107, 1, 3.09086e-08, -3.09086e-08, -3, 3.5, 0)
 projection = 1
 size = 5.0
 
-[node name="GridMap" type="GridMap" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, 0.125, 0.125)
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="camera"]
+transform = Transform3D(1, -4.2222e-08, -3.2398e-08, 5.27643e-08, 0.866025, 0.5, 6.94656e-09, -0.5, 0.866025, -1.31134e-07, -0.353554, -4.59619)
+sky_mode = 1
+
+[node name="level" type="GridMap" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.125, 0, 0.125)
 mesh_library = ExtResource("1_creva")
 cell_size = Vector3(0.25, 0.25, 0.25)
 cell_scale = 0.25
@@ -19,6 +29,21 @@ data = {
 }
 metadata/_editor_floor_ = Vector3(1, 3, 0)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-3.1999e-08, -0.866025, -0.5, -4.37114e-08, -0.5, 0.866025, -1, 4.95676e-08, -2.18557e-08, 0, 0, 0)
-sky_mode = 1
+[node name="player" type="CharacterBody3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.372955, 0)
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+script = ExtResource("2_nrv28")
+speed = 1.0
+jumpHeight = 3.0
+gravity = 10.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="player"]
+transform = Transform3D(0.15, 0, 0, 0, 0.4, 0, 0, 0, 0.15, 0, 0.163635, 0)
+mesh = SubResource("BoxMesh_cf4oi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.163635, 0)
+shape = SubResource("BoxShape3D_2veee")
