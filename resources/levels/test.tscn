@@ -1,16 +1,29 @@
-[gd_scene load_steps=6 format=3 uid="uid://jqolbqoxmi4k"]
+[gd_scene load_steps=11 format=3 uid="uid://jqolbqoxmi4k"]
 
 [ext_resource type="MeshLibrary" uid="uid://dus3m8fgbhrmr" path="res://resources/meshLibrary/testMeshLib.tres" id="1_jai4f"]
 [ext_resource type="Script" path="res://code/cloneTrigger.gd" id="2_5h0nu"]
 [ext_resource type="Script" path="res://code/level.gd" id="2_gjhlc"]
+[ext_resource type="Script" path="res://code/laser.gd" id="4_xycs7"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_rx6lr"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_x7kd6"]
 size = Vector3(1, 1.21771, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tjlxx"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_esq8b"]
+size = Vector3(1, 0.125, 0.125)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q6qmi"]
+albedo_color = Color(1, 0, 0.101961, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7pyp0"]
+material = SubResource("StandardMaterial3D_q6qmi")
+
 [node name="level" type="GridMap"]
 mesh_library = ExtResource("1_jai4f")
+physics_material = SubResource("PhysicsMaterial_rx6lr")
 cell_size = Vector3(0.25, 0.25, 0.25)
 cell_scale = 0.25
 data = {
@@ -39,5 +52,17 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.37457, 1.12662, -0.875102)
 transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0)
 shape = SubResource("BoxShape3D_tjlxx")
 
+[node name="laser" type="Area3D" parent="." groups=["hazard", "laser"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.378499, 0.352169, -0.641803)
+script = ExtResource("4_xycs7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="laser"]
+shape = SubResource("BoxShape3D_esq8b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="laser"]
+transform = Transform3D(1, 0, 0, 0, 0.125, 0, 0, 0, 0.125, 0, 0, 0)
+mesh = SubResource("BoxMesh_7pyp0")
+
 [connection signal="body_entered" from="cloneTrigger" to="cloneTrigger" method="_on_body_entered"]
 [connection signal="body_exited" from="cloneTrigger" to="cloneTrigger" method="_on_body_exited"]
+[connection signal="body_entered" from="laser" to="laser" method="_on_body_entered"]
