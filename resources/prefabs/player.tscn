@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctov75ep4o6tj"]
+
+[ext_resource type="Script" path="res://code/player.gd" id="1_agb6w"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_cf4oi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2veee"]
+resource_local_to_scene = true
+size = Vector3(0.2, 0.2, 0.2)
+
+[node name="player" type="CharacterBody3D" groups=["player"]]
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+floor_stop_on_slope = false
+floor_constant_speed = true
+floor_snap_length = 0.0
+safe_margin = 0.005
+script = ExtResource("1_agb6w")
+speed = 1.0
+jumpHeight = 3.0
+gravity = 10.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+mesh = SubResource("BoxMesh_cf4oi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_2veee")

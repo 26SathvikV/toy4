@@ -11,6 +11,9 @@ extends CharacterBody3D
 	"left": Vector3(0, 0, -speed)
 };
 
+func initialize() -> void:
+	pass;
+
 func _physics_process(delta: float) -> void:
 	var vec: Vector3 = Vector3(0, self.velocity.y - gravity * delta, 0);
 

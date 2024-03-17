@@ -47,6 +47,7 @@ mesh = SubResource("BoxMesh_qtidj")
 [node name="collision" type="StaticBody3D" parent="dark04"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="dark04/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="dark05" type="MeshInstance3D" parent="."]
@@ -56,6 +57,7 @@ mesh = SubResource("BoxMesh_eh46e")
 [node name="collision" type="StaticBody3D" parent="dark05"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="dark05/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="dark06" type="MeshInstance3D" parent="."]
@@ -65,6 +67,7 @@ mesh = SubResource("BoxMesh_tep7x")
 [node name="collision" type="StaticBody3D" parent="dark06"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="dark06/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="orange04" type="MeshInstance3D" parent="."]
@@ -74,6 +77,7 @@ mesh = SubResource("BoxMesh_40ghg")
 [node name="collision" type="StaticBody3D" parent="orange04"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="orange04/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="orange05" type="MeshInstance3D" parent="."]
@@ -83,6 +87,7 @@ mesh = SubResource("BoxMesh_u4gns")
 [node name="collision" type="StaticBody3D" parent="orange05"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="orange05/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="orange06" type="MeshInstance3D" parent="."]
@@ -92,6 +97,7 @@ mesh = SubResource("BoxMesh_qitv2")
 [node name="collision" type="StaticBody3D" parent="orange06"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="orange06/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="purple04" type="MeshInstance3D" parent="."]
@@ -101,6 +107,7 @@ mesh = SubResource("BoxMesh_2480x")
 [node name="collision" type="StaticBody3D" parent="purple04"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="purple04/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="purple05" type="MeshInstance3D" parent="."]
@@ -110,6 +117,7 @@ mesh = SubResource("BoxMesh_bu5kp")
 [node name="collision" type="StaticBody3D" parent="purple05"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="purple05/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
 
 [node name="purple06" type="MeshInstance3D" parent="."]
@@ -119,4 +127,5 @@ mesh = SubResource("BoxMesh_mko6l")
 [node name="collision" type="StaticBody3D" parent="purple06"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="purple06/collision"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
 shape = SubResource("BoxShape3D_4b38b")
