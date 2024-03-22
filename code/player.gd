@@ -17,6 +17,11 @@ var _vel: Vector3; # backup of velocity that is not modifed by move_and_slide
 func initialize() -> void:
 	pass;
 
+func _ready():
+	if !AudioPlayer.instance.is_node_ready():
+		await AudioPlayer.instance.ready
+	AudioPlayer.instance.onPlayerSpawn()
+
 func _physics_process(delta: float) -> void:
 	# allow for pushing of dead players
 	for i in self.get_slide_collision_count():
@@ -49,5 +54,5 @@ func _physics_process(delta: float) -> void:
 func kill() -> void:
 	self.remove_from_group("player");
 	isDead = true;
-	
+	AudioPlayer.instance.onPlayerExit();
 	$mesh.set_surface_override_material(0, get_node("/root/Resources").deadPlayerMat);

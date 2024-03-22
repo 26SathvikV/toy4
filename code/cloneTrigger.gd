@@ -16,6 +16,7 @@ func _on_body_entered(body: Node3D) -> void:
 		# TODO: check if spawn point is blocked
 		var p: Node3D = get_node("/root/Resources").player.instantiate();
 		# surely theres a better way to do this??
+		# there is. use signals :)
 		get_tree().root.get_node("main/playerCharacters").add_child(p);
 
 		p.position = $spawnPoint.position;
