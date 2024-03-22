@@ -1,4 +1,12 @@
-[gd_scene format=3 uid="uid://culun8f4of417"]
+[gd_scene load_steps=8 format=3 uid="uid://culun8f4of417"]
+
+[ext_resource type="Script" path="res://code/audioPlayer.gd" id="1_webrd"]
+[ext_resource type="AudioStream" uid="uid://ha5tsncqhbt7" path="res://resources/sounds/music/bass.wav" id="2_jjm1t"]
+[ext_resource type="AudioStream" uid="uid://b0nja7qxqsyyv" path="res://resources/sounds/music/chords1.wav" id="3_m1ebx"]
+[ext_resource type="AudioStream" uid="uid://ddkyerm5hxb2r" path="res://resources/sounds/music/chords2.wav" id="4_doift"]
+[ext_resource type="AudioStream" uid="uid://ddebarqqnsosx" path="res://resources/sounds/music/drums.wav" id="5_7us34"]
+[ext_resource type="AudioStream" uid="uid://cds1nisilkac3" path="res://resources/sounds/spawn.wav" id="6_i1wx1"]
+[ext_resource type="AudioStream" uid="uid://c208ssrd23opg" path="res://resources/sounds/death.wav" id="7_6xtha"]
 
 [node name="main" type="Node3D"]
 
@@ -17,3 +25,24 @@ unique_name_in_owner = true
 
 [node name="level" type="Node3D" parent="."]
 unique_name_in_owner = true
+
+[node name="audioPlayer" type="Node" parent="."]
+script = ExtResource("1_webrd")
+
+[node name="bass" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("2_jjm1t")
+
+[node name="chords1" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("3_m1ebx")
+
+[node name="chords2" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("4_doift")
+
+[node name="drums" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("5_7us34")
+
+[node name="spawn" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("6_i1wx1")
+
+[node name="death" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("7_6xtha")
