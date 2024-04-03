@@ -1,9 +1,0 @@
-res://main.tscn
-res://resources/levels/level1.gd
-res://resources/materials/dark/darkMaterial4.tres
-res://resources/materials/orange/orangeMaterial5.tres
-res://resources/materials/orange/orangeMaterial6.tres
-res://resources/meshLibrary/testMeshLib.tres
-res://resources/levels/level1.tscn
-res://gui.tscn
-res://code/player.gd

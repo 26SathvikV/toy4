@@ -21,7 +21,8 @@ var nClones: int = 0;
 var maxClones: int = 3;
 
 func _ready():
-	loadLevel(0)
+	loadLevel(0);
+	get_node("/root/main/level/level/GUI").changeGUI(0);
 
 func loadLevel(index: int) -> void:
 	unloadLevel(currentLevelIndex);
@@ -29,11 +30,10 @@ func loadLevel(index: int) -> void:
 	var data: Dictionary = GAME_DATA[index];
 	
 	currentLevel = load(data["path"]).instantiate();
+	currentLevel.ready.connect(loadLevelCallback);
 	get_node("/root/main/level").add_child(currentLevel);
 	nClones = 1;
 	maxClones = data["nClones"];
-	
-	currentLevel.ready.connect(loadLevelCallback);
 
 func loadLevelCallback() -> void:
 	var player: Node3D = get_node("/root/Resources").player.instantiate();
@@ -44,8 +44,12 @@ func loadLevelCallback() -> void:
 	currentLevel.ready.disconnect(loadLevelCallback);
 
 func unloadLevel(index: int) -> void:
+	print("attempting to unload level");
 	if (currentLevel != null):
 		currentLevel.queue_free()
-		currentLevel.ready.disconnect(loadLevelCallback)
 		currentLevelIndex = -1
 		currentLevel = null
+		
+		var chars := get_node("/root/main/playerCharacters").get_children();
+		for child in chars:
+			child.queue_free();

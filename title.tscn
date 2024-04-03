@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://title.gd" id="1_q7w03"]
 [ext_resource type="Texture2D" uid="uid://bvtgaiig87h8t" path="res://titlePlaceholder.png" id="1_xkmyw"]
-[ext_resource type="FontFile" uid="uid://cinimdaeyn5mq" path="res://Madimi_One/MadimiOne-Regular.ttf" id="2_b83aq"]
-[ext_resource type="Texture2D" uid="uid://dupvx6sbrm0xo" path="res://button.png" id="3_rrbv5"]
+[ext_resource type="FontFile" uid="uid://cinimdaeyn5mq" path="res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf" id="2_b83aq"]
+[ext_resource type="Texture2D" uid="uid://4ypxdxaotlyk" path="res://button.png" id="3_rrbv5"]
 
 [sub_resource type="Theme" id="Theme_tqqj5"]
 default_font = ExtResource("2_b83aq")

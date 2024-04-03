@@ -1,2 +1,4 @@
 res://title.tscn
-res://title.gd
+res://resources/materials/deadPlayer.tres
+res://code/controller.gd
+res://gui.tscn

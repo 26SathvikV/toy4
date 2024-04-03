@@ -25,10 +25,10 @@ func _physics_process(delta: float) -> void:
 	for i in self.get_slide_collision_count():
 		var collision: KinematicCollision3D = self.get_slide_collision(i);
 		var col: Object = collision.get_collider();
-		print(col)
+		if (col == null):
+			continue;
 		# so for some reason im only able to access metadata? and not groups?
 		# aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-		# 4/2/2024: Error with respawning after death. Col is declared as null upon unloading and reloading the level.
 		if (!col.has_meta("player")):
 			continue;
 		
@@ -67,4 +67,5 @@ func kill() -> void:
 	remove_from_group("players")
 	isDead = true;
 	$collision/AnimationPlayer.current_animation = "dead"
-	$Rogue/AnimationPlayer.current_animation = "Death_A_Pose" 
+	$Rogue/AnimationPlayer.current_animation = "Death_A_Pose"
+	get_node("/root/main/level").get_child(0).notifyDeath();

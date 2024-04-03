@@ -2,9 +2,6 @@ extends Control
 
 var revive = false
 
-func _ready():
-	changeGUI(0)
-
 func changeGUI(stage : int):
 	if (stage == 0):
 		$title.visible = true
@@ -19,7 +16,6 @@ func changeGUI(stage : int):
 func _process(delta):
 	pass
 
-
 func _on_play_button_pressed():
 	changeGUI(1)
 
@@ -27,5 +23,4 @@ func _on_quit_button_pressed():
 	get_tree().quit();
 
 func _on_retry_button_pressed():
-	revive = true
-	changeGUI(1)
+	Controller.loadLevel(0);

@@ -13,11 +13,6 @@ func _ready() -> void:
 		if (child.is_in_group("clone_trigger")):
 			CLONE_TRIGGERS.append(child);
 
-func _process(delta):
-	if ($GUI.revive == true):
-		print("reviving")
-		Controller.loadLevel(0)
-		$GUI.revive = false
-	
+func notifyDeath():
 	if (get_tree().get_nodes_in_group("players").size() == 0):
-		$GUI.changeGUI(2)
+		$GUI.changeGUI(2);
