@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbxa2gn04shtv"
+path="res://.godot/imported/structure-tall.obj-4392ec50e3184ce996baf7a74c0b050d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-tall.obj-4392ec50e3184ce996baf7a74c0b050d.mesh"]
+
+source_file="res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-tall.obj"
+dest_files=["res://.godot/imported/structure-tall.obj-4392ec50e3184ce996baf7a74c0b050d.mesh", "res://.godot/imported/structure-tall.obj-4392ec50e3184ce996baf7a74c0b050d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

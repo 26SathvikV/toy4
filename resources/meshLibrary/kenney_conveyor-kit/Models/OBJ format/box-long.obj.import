@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbiqrk7pxje4s"
+path="res://.godot/imported/box-long.obj-3c3dabbd215043da127624aeb7254f9c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/box-long.obj-3c3dabbd215043da127624aeb7254f9c.mesh"]
+
+source_file="res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-long.obj"
+dest_files=["res://.godot/imported/box-long.obj-3c3dabbd215043da127624aeb7254f9c.mesh", "res://.godot/imported/box-long.obj-3c3dabbd215043da127624aeb7254f9c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

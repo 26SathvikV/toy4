@@ -1,0 +1,10 @@
+Control
+Sprite2D
+Node3D
+OmniLight3D
+DirectionalLight3D
+StaticBody3D
+CollisionShape3D
+WorldEnvironment
+AnimationPlayer
+MeshInstance3D
