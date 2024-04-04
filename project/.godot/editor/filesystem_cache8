@@ -1,549 +1,560 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712123089
-gui.tscn::PackedScene::7815632762789520973::1712098062::0::1::::<><>::res://code/gui.gd<>uid://c88cwfuk7xv68::::res://resources/materials/bgs/title.png<>uid://cinimdaeyn5mq::::res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf<>uid://ctq4uhowk1lai::::res://resources/materials/button.png<>uid://bmm5vjj35l2to::::res://resources/materials/bgs/death.png
-icon.svg::CompressedTexture2D::5854819578207480252::1711687812::1711687816::1::::<><>::
-main.gd::GDScript::-1::1711990443::0::1::::<>Node3D<>::
-main.tscn::PackedScene::6200565692948744048::1712098062::0::1::::<><>::res://main.gd
-::res://code/::1712123067
-cloneTrigger.gd::GDScript::-1::1711687812::0::1::::<>Area3D<>::
-controller.gd::GDScript::-1::1712098095::0::1::::<>Node3D<>::
-gui.gd::GDScript::-1::1711990903::0::1::::<>Control<>::
-laser.gd::GDScript::-1::1711687812::0::1::::<>Area3D<>::
-level.gd::GDScript::-1::1711687812::0::1::::<>GridMap<>::
-player.gd::GDScript::-1::1712097905::0::1::::<>CharacterBody3D<>::
-resources.gd::GDScript::-1::1711687812::0::1::::<>Node<>::
-::res://resources/::1712123064
-::res://resources/fonts/::1712123063
-::res://resources/fonts/Madimi_One/::1712123063
-MadimiOne-Regular.ttf::FontFile::5361696350546638984::1711867328::1711867436::1::::<><>::
-OFL.txt::TextFile::-1::1711867328::0::1::::<><>::
-::res://resources/fonts/Open_Sans/::1712123063
-OFL.txt::TextFile::-1::1711867328::0::1::::<><>::
-OpenSans-Italic-VariableFont_wdth,wght.ttf::FontFile::9078056650407675147::1711867328::1711867436::1::::<><>::
-OpenSans-VariableFont_wdth,wght.ttf::FontFile::5476020683707003923::1711867328::1711867436::1::::<><>::
-README.txt::TextFile::-1::1711867328::0::1::::<><>::
-::res://resources/fonts/Open_Sans/static/::1712123063
-OpenSans-Bold.ttf::FontFile::4204069604316797052::1711867328::1711867436::1::::<><>::
-OpenSans-BoldItalic.ttf::FontFile::2318299861892968965::1711867328::1711867436::1::::<><>::
-OpenSans-ExtraBold.ttf::FontFile::2376173688375051553::1711867329::1711867436::1::::<><>::
-OpenSans-ExtraBoldItalic.ttf::FontFile::3227901795805593178::1711867329::1711867436::1::::<><>::
-OpenSans-Italic.ttf::FontFile::6829661256884933909::1711867329::1711867436::1::::<><>::
-OpenSans-Light.ttf::FontFile::6888212916973271227::1711867329::1711867436::1::::<><>::
-OpenSans-LightItalic.ttf::FontFile::7580547546391943854::1711867329::1711867436::1::::<><>::
-OpenSans-Medium.ttf::FontFile::3305436446228164686::1711867329::1711867436::1::::<><>::
-OpenSans-MediumItalic.ttf::FontFile::3959921522334422015::1711867329::1711867436::1::::<><>::
-OpenSans-Regular.ttf::FontFile::156069300428785080::1711867329::1711867436::1::::<><>::
-OpenSans-SemiBold.ttf::FontFile::7093917905439085993::1711867329::1711867436::1::::<><>::
-OpenSans-SemiBoldItalic.ttf::FontFile::2771585324400026096::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-Bold.ttf::FontFile::6436431740004294620::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-BoldItalic.ttf::FontFile::7071155046934642441::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-ExtraBold.ttf::FontFile::6033169146510159393::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-ExtraBoldItalic.ttf::FontFile::6560703885294358191::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-Italic.ttf::FontFile::5253700495018184361::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-Light.ttf::FontFile::1424847929715829385::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-LightItalic.ttf::FontFile::6366738347520241504::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-Medium.ttf::FontFile::3596837665326200036::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-MediumItalic.ttf::FontFile::5168701211054581063::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-Regular.ttf::FontFile::2578433234111422238::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-SemiBold.ttf::FontFile::6699493497485248772::1711867329::1711867436::1::::<><>::
-OpenSans_Condensed-SemiBoldItalic.ttf::FontFile::9121347296894708681::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-Bold.ttf::FontFile::139432175829307449::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-BoldItalic.ttf::FontFile::1428654484950384766::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-ExtraBold.ttf::FontFile::2664653991033533806::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-ExtraBoldItalic.ttf::FontFile::4184728945756047871::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-Italic.ttf::FontFile::298944609564646815::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-Light.ttf::FontFile::6482141387073372288::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-LightItalic.ttf::FontFile::4871886459537016951::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-Medium.ttf::FontFile::6194769232095634301::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-MediumItalic.ttf::FontFile::314104018735237631::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-Regular.ttf::FontFile::3209541874888416258::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-SemiBold.ttf::FontFile::1973240472232763387::1711867330::1711867436::1::::<><>::
-OpenSans_SemiCondensed-SemiBoldItalic.ttf::FontFile::40419786329272822::1711867330::1711867436::1::::<><>::
-::res://resources/levels/::1712123063
-Button1.gd::GDScript::-1::1711690919::0::1::::<>Area3D<>::
-laserMovement.gd::GDScript::-1::1711693801::0::1::::<>MeshInstance3D<>::
-level1.gd::GDScript::-1::1712097694::0::1::::<>GridMap<>::
-level1.tscn::PackedScene::9149552530463543517::1712098095::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://resources/levels/level1.gd<>res://code/cloneTrigger.gd<>res://code/laser.gd<>uid://bjn3dnl0sf5ne::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0036.png<>uid://d5nggqaqf8il::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0012.png<>res://resources/levels/laserMovement.gd<>uid://bpintglddkyvh::::res://resources/meshLibrary/button/button.obj<>uid://djl7lhfri6dg4::::res://gui.tscn
-test.tscn::PackedScene::665599396346466580::1711690919::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://code/cloneTrigger.gd<>res://code/level.gd<>res://code/laser.gd
-::res://resources/materials/::1712123063
-button.png::CompressedTexture2D::6141256339546789348::1711867324::1711867436::1::::<><>::
-deadPlayer.tres::StandardMaterial3D::5963990779487203512::1711687812::0::1::::<><>::
-::res://resources/materials/bgs/::1712123063
-death.png::CompressedTexture2D::3255318839779340920::1711867108::1711867131::1::::<><>::
-title.png::CompressedTexture2D::7157358688787569419::1711867108::1711867133::1::::<><>::
-::res://resources/materials/dark/::1712123063
-darkMaterial4.tres::StandardMaterial3D::8245483199832603517::1712097130::0::1::::<><>::uid://ccogsp8tj4ayu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0020.png
-darkMaterial5.tres::StandardMaterial3D::2054399036907675258::1711687812::0::1::::<><>::uid://n0spr72bglev::::res://resources/textures/dark/texture_06.png
-darkMaterial6.tres::StandardMaterial3D::3794671715387864057::1711687812::0::1::::<><>::uid://drabbk7pk78x2::::res://resources/textures/dark/texture_03.png
-::res://resources/materials/orange/::1712123063
-orangeMaterial4.tres::StandardMaterial3D::824347733431631654::1711687812::0::1::::<><>::uid://bmv78r2ht76o0::::res://resources/textures/orange/texture_05.png
-orangeMaterial5.tres::StandardMaterial3D::7703541402300386166::1712097131::0::1::::<><>::
-orangeMaterial6.tres::StandardMaterial3D::520955379628148835::1712097131::0::1::::<><>::uid://dsnokg4jl8etb::::res://resources/textures/orange/texture_07.png
-::res://resources/materials/purple/::1712123063
-orangeMaterial4.tres::StandardMaterial3D::5659990913964572683::1711687812::0::1::::<><>::uid://0r3pk8mqlfw4::::res://resources/textures/purple/texture_05.png
-orangeMaterial5.tres::StandardMaterial3D::3251391918291877132::1711687812::0::1::::<><>::uid://di1cbhif2hkl::::res://resources/textures/purple/texture_06.png
-orangeMaterial6.tres::StandardMaterial3D::6017065631082473573::1711687812::0::1::::<><>::uid://b7u7uop24jjam::::res://resources/textures/purple/texture_07.png
-::res://resources/meshLibrary/::1712123063
-src.tscn::PackedScene::1115269152787235634::1711687812::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://l0k5fcco1hmc::::res://resources/materials/orange/orangeMaterial4.tres<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://cmv0hujhqohod::::res://resources/materials/purple/orangeMaterial4.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
-testMeshLib.tres::MeshLibrary::8601920970006167477::1712097131::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://qloipag56bwu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0001.png<>uid://bkpu1kd4jo2h::::res://resources/meshLibrary/kenney_conveyor-kit/Previews/floor.png<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
-::res://resources/meshLibrary/button/::1712123063
-button.obj::Mesh::3456591943559908305::1711864462::1711864492::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/::1712123063
-contents.png::CompressedTexture2D::2198252013306175302::1711696608::1711696630::1::::<><>::
-License.txt::TextFile::-1::1711696608::0::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/::1712123063
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/fbx/::1712123063
-barbarian_texture.png::CompressedTexture2D::8628376876889481249::1711696608::1711696630::1::::<><>::
-knight_texture.png::CompressedTexture2D::5182612331252058358::1711696608::1711696630::1::::<><>::
-mage_texture.png::CompressedTexture2D::3961654547404451418::1711696608::1711696630::1::::<><>::
-rogue_texture.png::CompressedTexture2D::2819232248925629077::1711696608::1711696630::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/::1712123063
-arrow.gltf::PackedScene::1116288470744976559::1711696609::1711696633::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-arrow_bundle.gltf::PackedScene::6758427532367116274::1711696609::1711696633::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-axe_1handed.gltf::PackedScene::5398450860180448585::1711696609::1711696633::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
-axe_2handed.gltf::PackedScene::8849187958795998049::1711696609::1711696633::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
-barbarian_texture.png::CompressedTexture2D::7953628528264428481::1711696609::1711696635::1::::<><>::
-crossbow_1handed.gltf::PackedScene::3885518122886772715::1711696609::1711696633::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-crossbow_2handed.gltf::PackedScene::3219599359349737217::1711696609::1711696633::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-dagger.gltf::PackedScene::5473217984269860439::1711696609::1711696633::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-knight_texture.png::CompressedTexture2D::3118222502930689717::1711696609::1711696635::1::::<><>::
-mage_texture.png::CompressedTexture2D::2050805723952542131::1711696609::1711696635::1::::<><>::
-mug_empty.gltf::PackedScene::1368635388497254814::1711696609::1711696631::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
-mug_full.gltf::PackedScene::3734669262797199767::1711696609::1711696634::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
-quiver.gltf::PackedScene::732015647716691938::1711696609::1711696634::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-rogue_texture.png::CompressedTexture2D::8312331905044132347::1711696609::1711696635::1::::<><>::
-shield_badge.gltf::PackedScene::8715424395224559824::1711696609::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_badge_color.gltf::PackedScene::6997153977368601076::1711696609::1711696633::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_round.gltf::PackedScene::7197634565581567772::1711696609::1711696633::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_round_barbarian.gltf::PackedScene::6691468804754447332::1711696609::1711696633::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
-shield_round_color.gltf::PackedScene::8332689866403286126::1711696609::1711696633::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_spikes.gltf::PackedScene::657027945070124862::1711696609::1711696633::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_spikes_color.gltf::PackedScene::8170853939987085325::1711696609::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_square.gltf::PackedScene::969084687264524894::1711696610::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-shield_square_color.gltf::PackedScene::689446638122729816::1711696610::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-smokebomb.gltf::PackedScene::1219019307537925926::1711696610::1711696634::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
-spellbook_closed.gltf::PackedScene::8481319453714268749::1711696610::1711696634::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
-spellbook_open.gltf::PackedScene::3819523012596536264::1711696610::1711696634::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
-staff.gltf::PackedScene::1507422001020383224::1711696610::1711696634::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
-sword_1handed.gltf::PackedScene::7043308129131670700::1711696610::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-sword_2handed.gltf::PackedScene::680533271922442971::1711696610::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-sword_2handed_color.gltf::PackedScene::6908116846468857939::1711696610::1711696634::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
-wand.gltf::PackedScene::1642315275128797110::1711696610::1711696634::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/::1712123063
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/fbx/::1712123063
-barbarian_texture.png::CompressedTexture2D::1598054432534061591::1711696610::1711696630::1::::<><>::
-knight_texture.png::CompressedTexture2D::4018074138342530107::1711696610::1711696630::1::::<><>::
-mage_texture.png::CompressedTexture2D::6159534147806001229::1711696610::1711696630::1::::<><>::
-rogue_texture.png::CompressedTexture2D::511256842113404440::1711696610::1711696630::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/::1712123063
-Barbarian.glb::PackedScene::3481912623030858411::1711696610::1711696635::1::::<><>::uid://basv1872t2uev::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Barbarian_barbarian_texture.png
-Barbarian_barbarian_texture.png::CompressedTexture2D::2424902754713327445::1711696634::1711696635::1::::<><>::
-barbarian_texture.png::CompressedTexture2D::5982166266234033533::1711696610::1711696630::1::::<><>::
-Knight.glb::PackedScene::5305863702314778326::1711696611::1711696631::1::::<><>::uid://cyt8mmx72fm7g::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Knight_knight_texture.png
-Knight_knight_texture.png::CompressedTexture2D::6498622549615196558::1711696631::1711696635::1::::<><>::
-knight_texture.png::CompressedTexture2D::7014957367627169281::1711696611::1711696630::1::::<><>::
-Mage.glb::PackedScene::7288668172305450159::1711696611::1711696632::1::::<><>::uid://b0ucgn2e138h0::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Mage_mage_texture.png
-Mage_mage_texture.png::CompressedTexture2D::4182562203204964939::1711696631::1711696635::1::::<><>::
-mage_texture.png::CompressedTexture2D::4467340340251833967::1711696611::1711696630::1::::<><>::
-Rogue.glb::PackedScene::6504838936613841717::1711696611::1711696632::1::::<><>::
-Rogue_Hooded.glb::PackedScene::112670645149721661::1711696611::1711696633::1::::<><>::
-Rogue_Hooded_rogue_texture.png::CompressedTexture2D::6386400059456007415::1711696632::1711696635::1::::<><>::
-Rogue_rogue_texture.png::CompressedTexture2D::2071510330761941028::1711696632::1711696635::1::::<><>::
-rogue_texture.png::CompressedTexture2D::2241718036182344668::1711696611::1711696630::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Samples/::1712123063
-barbarian.png::CompressedTexture2D::4577118525654663359::1711696611::1711696630::1::::<><>::
-druid.png::CompressedTexture2D::56956694998942990::1711696611::1711696630::1::::<><>::
-engineer.png::CompressedTexture2D::3925962517937213565::1711696611::1711696630::1::::<><>::
-knight.png::CompressedTexture2D::1524398266953854175::1711696611::1711696630::1::::<><>::
-mage.png::CompressedTexture2D::4677401538020046496::1711696611::1711696630::1::::<><>::
-rogue.png::CompressedTexture2D::3921731371153229589::1711696611::1711696630::1::::<><>::
-::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Textures/::1712123063
-barbarian_texture.png::CompressedTexture2D::1956073264598246469::1711696611::1711696630::1::::<><>::
-knight_texture.png::CompressedTexture2D::1109461981289041370::1711696611::1711696630::1::::<><>::
-mage_texture.png::CompressedTexture2D::4374437466080018406::1711696611::1711696630::1::::<><>::
-rogue_texture.png::CompressedTexture2D::7875206801736667884::1711696611::1711696630::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/::1712123064
-conveyorKit.tscn::PackedScene::3818388020351270731::1711990494::0::1::::<><>::uid://fll7b0f1noc1::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/arrow-basic.obj<>uid://b0t8rxe0b8ysk::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/arrow.obj<>uid://bdrpssev4jgdt::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-large.obj<>uid://bbiqrk7pxje4s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-long.obj<>uid://dy248sa0fg6v3::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-small.obj<>uid://b5d6v7en1u7ik::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-wide.obj<>uid://cbaf4d75nskit::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-fence.obj<>uid://cd7u56vl2em0s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-high.obj<>uid://bc1ugexaaxsh8::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-sides.obj<>uid://br35ijjjds5uw::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-fence.obj<>uid://by4msmaddjgpr::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-high.obj<>uid://bjtyhi1pu4q04::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-side.obj<>uid://cv8tagc13xdq6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe.obj<>uid://8px2k5xg1s03::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars.obj<>uid://bbmnowjfnn2xg::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-sides.obj<>uid://bujnkjw7ojrab::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe-sides.obj<>uid://niwlsfmf0nak::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe.obj<>uid://ck53nb6n23iql::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long.obj<>uid://ca0ca2um1d2st::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-sides.obj<>uid://82ihgth24ca3::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe-sides.obj<>uid://c2dsc7ajiot2s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe.obj<>uid://bvv0mb3j1150e::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor.obj<>uid://c43x4df5e02dm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-bar.obj<>uid://vquuk6aw66b::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-corner.obj<>uid://dy4p0ggfl1x6x::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-hopper.obj<>uid://c86ehxkbflbfv::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-bar.obj<>uid://78ew8edtv73m::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-corner.obj<>uid://beekjy4nwebr5::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-hopper.obj<>uid://kcpvjgc2jbvi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-top.obj<>uid://cmyquw6m8s36p::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-window.obj<>uid://cac3saa1mq473::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe.obj<>uid://btduo0f3diie4::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-top.obj<>uid://c68uplgneknm2::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-window.obj<>uid://djptrcpsm4p1c::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover.obj<>uid://bmk7p0ithqt8r::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-closed.obj<>uid://fdiul5wr5l4k::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-half.obj<>uid://dlo76ms2jdmrf::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-open.obj<>uid://cbd4y0ata7orm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door.obj<>uid://dyoub5cwvo23u::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/floor-large.obj<>uid://4okrwnxypbno::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/floor.obj<>uid://663ajk0vjua6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/robot-arm-a.obj<>uid://c13yi647uwegg::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/robot-arm-b.obj<>uid://7uqx1hwtoqj7::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/scanner-high.obj<>uid://dgqjyva7ms2kh::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/scanner-low.obj<>uid://brtg1njg1g1cl::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-corner-inner.obj<>uid://kwa04jtod0qn::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-corner-outer.obj<>uid://8h70dnlyyabm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-doorway-wide.obj<>uid://domkflk3cr6p1::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-doorway.obj<>uid://ck00rn6706svo::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-high.obj<>uid://c7gnskn8h8rx::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-medium.obj<>uid://dsy78xy7t22ce::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-short.obj<>uid://dbxa2gn04shtv::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-tall.obj<>uid://duyxrqv6lj875::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-wall.obj<>uid://bo3mtj1iaaxpx::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-window-wide.obj<>uid://d051dtljl1d1l::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-window.obj<>uid://bi6e8ryx4dw72::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-high.obj<>uid://cme7id4gveywh::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-medium.obj<>uid://c2e8ii2kkigre::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-short.obj<>uid://2jxw83ibv4ls::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-tall.obj<>uid://dwj5a1vyje3x6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/top-large.obj<>uid://rjvebdanxexw::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/top.obj
-License.txt::TextFile::-1::1711691527::0::1::::<><>::
-Preview (Variation A).png::CompressedTexture2D::6318906080510603703::1711691532::1711694283::1::::<><>::
-Preview.png::CompressedTexture2D::6378719451891977926::1711691532::1711694283::1::::<><>::
-Sample.png::CompressedTexture2D::5235577030776951600::1711691533::1711694283::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/::1712123064
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/FBX format/::1712123064
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/FBX format/Textures/::1712123064
-colormap.png::CompressedTexture2D::3921190661419814662::1711691528::1711694283::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/::1712123064
-arrow-basic.glb::PackedScene::4050393422209332064::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-arrow.glb::PackedScene::2091318169947432184::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-box-large.glb::PackedScene::5126579323756958382::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-box-long.glb::PackedScene::6723234558965456272::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-box-small.glb::PackedScene::6285702556675016814::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-box-wide.glb::PackedScene::6421538944632486355::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-fence.glb::PackedScene::6254744776240346824::1711691528::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-high.glb::PackedScene::6696235135563577938::1711691528::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-sides.glb::PackedScene::2632577603814621205::1711691528::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-stripe-fence.glb::PackedScene::8286716480298389530::1711691528::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-stripe-high.glb::PackedScene::9218556922756855018::1711691528::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-stripe-side.glb::PackedScene::5530163538203684185::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars-stripe.glb::PackedScene::707773381979190777::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-bars.glb::PackedScene::6359145381389544561::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-long-sides.glb::PackedScene::7975494836139421795::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-long-stripe-sides.glb::PackedScene::6355905904072116005::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-long-stripe.glb::PackedScene::5709671947028563934::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-long.glb::PackedScene::6527383303540950855::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-sides.glb::PackedScene::7413807057053412436::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-stripe-sides.glb::PackedScene::1097747208504593267::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor-stripe.glb::PackedScene::3187351342144175037::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-conveyor.glb::PackedScene::6877122406486652197::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-bar.glb::PackedScene::5082041170649038064::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-corner.glb::PackedScene::1397349015790759464::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-hopper.glb::PackedScene::4822107306727865247::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe-bar.glb::PackedScene::1794433560233026095::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe-corner.glb::PackedScene::3586449841993600577::1711691529::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe-hopper.glb::PackedScene::6602988249110409017::1711691529::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe-top.glb::PackedScene::1797538927348949378::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe-window.glb::PackedScene::1844347505852687933::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-stripe.glb::PackedScene::5748108648308537397::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-top.glb::PackedScene::4496609643614784681::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover-window.glb::PackedScene::4709555678443420395::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-cover.glb::PackedScene::2412973167471939756::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-door-wide-closed.glb::PackedScene::8755126387916657135::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-door-wide-half.glb::PackedScene::944781806676276622::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-door-wide-open.glb::PackedScene::3820193998570789051::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-door.glb::PackedScene::7085707194283026453::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-floor-large.glb::PackedScene::4063006479792089799::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-floor.glb::PackedScene::7675951488515166751::1711691529::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-robot-arm-a.glb::PackedScene::8726510983749104269::1711691529::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-robot-arm-b.glb::PackedScene::1731295948489236926::1711691529::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-scanner-high.glb::PackedScene::7520482973008973019::1711691529::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-scanner-low.glb::PackedScene::3298495034516561272::1711691529::1711694285::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-corner-inner.glb::PackedScene::884721316330836030::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-corner-outer.glb::PackedScene::9087938257368905480::1711691529::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-doorway-wide.glb::PackedScene::869739188530856058::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-doorway.glb::PackedScene::3832860093654012220::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-high.glb::PackedScene::4026513968848582015::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-medium.glb::PackedScene::4733949350200280310::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-short.glb::PackedScene::6232241397360854806::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-tall.glb::PackedScene::8212897484907721976::1711691529::1711694288::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-wall.glb::PackedScene::5227050371522089215::1711691530::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-window-wide.glb::PackedScene::6212818042884200150::1711691530::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-window.glb::PackedScene::4074172312648367918::1711691530::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-yellow-high.glb::PackedScene::4822341944224342865::1711691530::1711694289::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-yellow-medium.glb::PackedScene::6706592496582625503::1711691530::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-yellow-short.glb::PackedScene::8187611444510015100::1711691530::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-structure-yellow-tall.glb::PackedScene::601286165020139654::1711691530::1711694286::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-top-large.glb::PackedScene::3646878608520245756::1711691530::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-top.glb::PackedScene::780149337706738492::1711691530::1711694287::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/::1712123064
-colormap.png::CompressedTexture2D::519580927508448422::1711691530::1711694283::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/::1712123064
-arrow-basic.obj::Mesh::374377497216116862::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-arrow.obj::Mesh::4182400186583541254::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-box-large.obj::Mesh::2633025488200778185::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-box-long.obj::Mesh::2474126955124127508::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-box-small.obj::Mesh::8901353168303925634::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-box-wide.obj::Mesh::4500200542096665978::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-fence.obj::Mesh::4843385792396254955::1711691530::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-high.obj::Mesh::5050737561303478148::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-sides.obj::Mesh::2581697492818305871::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-fence.obj::Mesh::3639269885814620118::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-high.obj::Mesh::4131581264497975679::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-side.obj::Mesh::3058813623207390903::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars-stripe.obj::Mesh::6316085491980773763::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-bars.obj::Mesh::2348642786266736454::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-long-sides.obj::Mesh::2482197552062518680::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-long-stripe-sides.obj::Mesh::3809584643254163821::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-long-stripe.obj::Mesh::930326360597944342::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-long.obj::Mesh::5538384528546682811::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-sides.obj::Mesh::4824573694829891227::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-stripe-sides.obj::Mesh::2372468620760804572::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor-stripe.obj::Mesh::6675231437500249220::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-conveyor.obj::Mesh::3905277783495651550::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-bar.obj::Mesh::6867568855523180134::1711691530::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-corner.obj::Mesh::44360187922063403::1711691531::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-hopper.obj::Mesh::8904616977650786993::1711691531::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe-bar.obj::Mesh::7153325509883172235::1711691531::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe-corner.obj::Mesh::2314451357350314876::1711691531::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe-hopper.obj::Mesh::2676058117314228804::1711691531::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe-top.obj::Mesh::706965930558228494::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe-window.obj::Mesh::5665660948895091837::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-stripe.obj::Mesh::4778702344180091344::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-top.obj::Mesh::3727442509132193909::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover-window.obj::Mesh::7018061700435173783::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-cover.obj::Mesh::7823111420545235546::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-door-wide-closed.obj::Mesh::3251301641882656015::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-door-wide-half.obj::Mesh::357659428397044816::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-door-wide-open.obj::Mesh::7962239582359671935::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-door.obj::Mesh::4851028310078659942::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-floor-large.obj::Mesh::8873913292416489400::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-floor.obj::Mesh::2065016459157662436::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-robot-arm-a.obj::Mesh::2241550428274838951::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-robot-arm-b.obj::Mesh::6657027047771064466::1711691531::1711694285::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-scanner-high.obj::Mesh::2288344474088581298::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-scanner-low.obj::Mesh::7614015573422131223::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-corner-inner.obj::Mesh::3619265632479328263::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-corner-outer.obj::Mesh::747350929779784361::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-doorway-wide.obj::Mesh::2332670251134949262::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-doorway.obj::Mesh::8167295088438127804::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-high.obj::Mesh::5527888263114635880::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-medium.obj::Mesh::206826254186760261::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-short.obj::Mesh::8474209424221484860::1711691531::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-tall.obj::Mesh::7276980135894056439::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-wall.obj::Mesh::8614011713505483258::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-window-wide.obj::Mesh::3427630118975195377::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-window.obj::Mesh::8977499489206694891::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-yellow-high.obj::Mesh::3012229873399311995::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-yellow-medium.obj::Mesh::5625322434848835651::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-yellow-short.obj::Mesh::6678216066106407998::1711691532::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-structure-yellow-tall.obj::Mesh::1915115733203706164::1711691532::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-top-large.obj::Mesh::8723818919836211597::1711691532::1711694284::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-top.obj::Mesh::1213071998832849020::1711691532::1711694283::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/::1712123064
-colormap.png::CompressedTexture2D::1140571967157877248::1711691532::1711694283::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/Models/Textures/::1712123064
-variation-a.png::CompressedTexture2D::4867145575492728609::1711691532::1711694283::1::::<><>::
-::res://resources/meshLibrary/kenney_conveyor-kit/Previews/::1712123064
-arrow-basic.png::CompressedTexture2D::134492713420167481::1711691532::1711694282::1::::<><>::
-arrow.png::CompressedTexture2D::1537558269586837370::1711691532::1711694283::1::::<><>::
-box-large.png::CompressedTexture2D::8701672706063272638::1711691532::1711694283::1::::<><>::
-box-long.png::CompressedTexture2D::3448867801456438339::1711691532::1711694283::1::::<><>::
-box-small.png::CompressedTexture2D::1171900821737035094::1711691532::1711694283::1::::<><>::
-box-wide.png::CompressedTexture2D::5714216854090524130::1711691532::1711694283::1::::<><>::
-conveyor-bars-fence.png::CompressedTexture2D::3004131742241823208::1711691532::1711694283::1::::<><>::
-conveyor-bars-high.png::CompressedTexture2D::7208576064184076793::1711691532::1711694283::1::::<><>::
-conveyor-bars-sides.png::CompressedTexture2D::2990078451787448134::1711691532::1711694283::1::::<><>::
-conveyor-bars-stripe-fence.png::CompressedTexture2D::5436639441487091633::1711691532::1711694283::1::::<><>::
-conveyor-bars-stripe-high.png::CompressedTexture2D::4653206413169879665::1711691532::1711694283::1::::<><>::
-conveyor-bars-stripe-side.png::CompressedTexture2D::1476222487185054868::1711691532::1711694283::1::::<><>::
-conveyor-bars-stripe.png::CompressedTexture2D::4329077451340280256::1711691532::1711694283::1::::<><>::
-conveyor-bars.png::CompressedTexture2D::2543536707997283539::1711691532::1711694283::1::::<><>::
-conveyor-long-sides.png::CompressedTexture2D::4652960107197758489::1711691532::1711694283::1::::<><>::
-conveyor-long-stripe-sides.png::CompressedTexture2D::406092073467217873::1711691532::1711694283::1::::<><>::
-conveyor-long-stripe.png::CompressedTexture2D::1236924675168850493::1711691532::1711694283::1::::<><>::
-conveyor-long.png::CompressedTexture2D::4550363521783139560::1711691532::1711694283::1::::<><>::
-conveyor-sides.png::CompressedTexture2D::4860771882505818536::1711691532::1711694283::1::::<><>::
-conveyor-stripe-sides.png::CompressedTexture2D::8859582564251031977::1711691532::1711694283::1::::<><>::
-conveyor-stripe.png::CompressedTexture2D::5089246337904816219::1711691532::1711694283::1::::<><>::
-conveyor.png::CompressedTexture2D::9205262987676484361::1711691532::1711694283::1::::<><>::
-cover-bar.png::CompressedTexture2D::5903410719620933942::1711691532::1711694283::1::::<><>::
-cover-corner.png::CompressedTexture2D::5202362360408953171::1711691532::1711694283::1::::<><>::
-cover-hopper.png::CompressedTexture2D::7736856022845415899::1711691532::1711694283::1::::<><>::
-cover-stripe-bar.png::CompressedTexture2D::964483000786706360::1711691532::1711694283::1::::<><>::
-cover-stripe-corner.png::CompressedTexture2D::8691706759152482781::1711691532::1711694283::1::::<><>::
-cover-stripe-hopper.png::CompressedTexture2D::3413850849113447061::1711691532::1711694283::1::::<><>::
-cover-stripe-top.png::CompressedTexture2D::3706540238915484815::1711691532::1711694283::1::::<><>::
-cover-stripe-window.png::CompressedTexture2D::6373913634679562024::1711691532::1711694283::1::::<><>::
-cover-stripe.png::CompressedTexture2D::2559780422705754846::1711691532::1711694283::1::::<><>::
-cover-top.png::CompressedTexture2D::8182063419133405819::1711691532::1711694283::1::::<><>::
-cover-window.png::CompressedTexture2D::577255565678509317::1711691532::1711694283::1::::<><>::
-cover.png::CompressedTexture2D::3290464107234201332::1711691532::1711694282::1::::<><>::
-door-wide-closed.png::CompressedTexture2D::2187009547904305292::1711691532::1711694283::1::::<><>::
-door-wide-half.png::CompressedTexture2D::8954806062137393505::1711691533::1711694282::1::::<><>::
-door-wide-open.png::CompressedTexture2D::1049398829945530867::1711691533::1711694283::1::::<><>::
-door.png::CompressedTexture2D::1369952340171878064::1711691533::1711694282::1::::<><>::
-floor-large.png::CompressedTexture2D::3971146693152501260::1711691533::1711694283::1::::<><>::
-floor.png::CompressedTexture2D::91780473178803789::1711691533::1711694282::1::::<><>::
-robot-arm-a.png::CompressedTexture2D::3024197806038199673::1711691533::1711694282::1::::<><>::
-robot-arm-b.png::CompressedTexture2D::8094399561570826186::1711691533::1711694283::1::::<><>::
-scanner-high.png::CompressedTexture2D::8590265959362500078::1711691533::1711694283::1::::<><>::
-scanner-low.png::CompressedTexture2D::5186013567174210689::1711691533::1711694282::1::::<><>::
-structure-corner-inner.png::CompressedTexture2D::7029229245075339749::1711691533::1711694282::1::::<><>::
-structure-corner-outer.png::CompressedTexture2D::3842924384109033832::1711691533::1711694283::1::::<><>::
-structure-doorway-wide.png::CompressedTexture2D::4674614612225941235::1711691533::1711694283::1::::<><>::
-structure-doorway.png::CompressedTexture2D::5925309563442234982::1711691533::1711694282::1::::<><>::
-structure-high.png::CompressedTexture2D::5008638531341768043::1711691533::1711694282::1::::<><>::
-structure-medium.png::CompressedTexture2D::5937920496711063090::1711691533::1711694283::1::::<><>::
-structure-short.png::CompressedTexture2D::2586259926382640299::1711691533::1711694282::1::::<><>::
-structure-tall.png::CompressedTexture2D::7849475532197497365::1711691533::1711694283::1::::<><>::
-structure-wall.png::CompressedTexture2D::1548912256835093235::1711691533::1711694283::1::::<><>::
-structure-window-wide.png::CompressedTexture2D::1191974955357447083::1711691533::1711694283::1::::<><>::
-structure-window.png::CompressedTexture2D::6202972650518228490::1711691533::1711694283::1::::<><>::
-structure-yellow-high.png::CompressedTexture2D::4390694439894574028::1711691533::1711694283::1::::<><>::
-structure-yellow-medium.png::CompressedTexture2D::8287998456802453760::1711691533::1711694283::1::::<><>::
-structure-yellow-short.png::CompressedTexture2D::2308897504322395112::1711691533::1711694283::1::::<><>::
-structure-yellow-tall.png::CompressedTexture2D::1386377205821728908::1711691533::1711694283::1::::<><>::
-top-large.png::CompressedTexture2D::1985908132909326745::1711691533::1711694283::1::::<><>::
-top.png::CompressedTexture2D::1874222828395629442::1711691533::1711694283::1::::<><>::
-::res://resources/prefabs/::1712123064
-player.tscn::PackedScene::6136664469919300523::1711990494::0::1::::<><>::res://code/player.gd<>uid://4rpqcg8xjv1e::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_rogue_texture.png
-::res://resources/textures/::1712123065
-::res://resources/textures/dark/::1712123064
-texture_02.png::CompressedTexture2D::641320338228599924::1711687812::1711687816::1::::<><>::
-texture_03.png::CompressedTexture2D::8352535471075959213::1711687812::1711687816::1::::<><>::
-texture_04.png::CompressedTexture2D::655767666793126600::1711687812::1711687816::1::::<><>::
-texture_05.png::CompressedTexture2D::464987960133455840::1711687812::1711687816::1::::<><>::
-texture_06.png::CompressedTexture2D::965185047483320425::1711687812::1711687816::1::::<><>::
-texture_07.png::CompressedTexture2D::714721089158662076::1711687812::1711687816::1::::<><>::
-texture_08.png::CompressedTexture2D::1426878326109713619::1711687812::1711687816::1::::<><>::
-texture_09.png::CompressedTexture2D::3997260331733244381::1711687812::1711687816::1::::<><>::
-texture_10.png::CompressedTexture2D::1429041543296139894::1711687812::1711687816::1::::<><>::
-texture_11.png::CompressedTexture2D::762128964000361265::1711687812::1711687816::1::::<><>::
-texture_12.png::CompressedTexture2D::5847679272120036620::1711687812::1711687816::1::::<><>::
-texture_13.png::CompressedTexture2D::2098075402065764660::1711687812::1711687816::1::::<><>::
-::res://resources/textures/kenney_pattern-pack-pixel/::1712123065
-License.txt::TextFile::-1::1711691830::0::1::::<><>::
-Preview.png::CompressedTexture2D::176613633064847493::1711691830::1711691860::1::::<><>::
-Tilesheet.txt::TextFile::-1::1711691830::0::1::::<><>::
-::res://resources/textures/kenney_pattern-pack-pixel/Tilemap/::1712123064
-tilemap_color.png::CompressedTexture2D::2011792155975113608::1711691830::1711691861::1::::<><>::
-tilemap_color_packed.png::CompressedTexture2D::7975767221569357507::1711691830::1711691861::1::::<><>::
-tilemap_grayscale.png::CompressedTexture2D::8641168620732246960::1711691830::1711691861::1::::<><>::
-tilemap_grayscale_packed.png::CompressedTexture2D::7454831068910644854::1711691830::1711691861::1::::<><>::
-::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Color)/::1712123065
-tile_0000.png::CompressedTexture2D::4210843959437384902::1711691830::1711691861::1::::<><>::
-tile_0001.png::CompressedTexture2D::176152333215112566::1711691830::1711691861::1::::<><>::
-tile_0002.png::CompressedTexture2D::1553860855522267306::1711691830::1711691861::1::::<><>::
-tile_0003.png::CompressedTexture2D::6287302511261762957::1711691830::1711691861::1::::<><>::
-tile_0004.png::CompressedTexture2D::3210903240890848400::1711691830::1711691861::1::::<><>::
-tile_0005.png::CompressedTexture2D::8901537674506111942::1711691830::1711691861::1::::<><>::
-tile_0006.png::CompressedTexture2D::2748347818444542953::1711691830::1711691861::1::::<><>::
-tile_0007.png::CompressedTexture2D::4657906136626249017::1711691830::1711691861::1::::<><>::
-tile_0008.png::CompressedTexture2D::8048628152863479621::1711691830::1711691861::1::::<><>::
-tile_0009.png::CompressedTexture2D::8383244635295069477::1711691830::1711691861::1::::<><>::
-tile_0010.png::CompressedTexture2D::797042807327507920::1711691830::1711691861::1::::<><>::
-tile_0011.png::CompressedTexture2D::5998619700352590978::1711691830::1711691861::1::::<><>::
-tile_0012.png::CompressedTexture2D::4360106509629294022::1711691830::1711691861::1::::<><>::
-tile_0013.png::CompressedTexture2D::2662569193324014254::1711691830::1711691861::1::::<><>::
-tile_0014.png::CompressedTexture2D::7153282261338035532::1711691830::1711691861::1::::<><>::
-tile_0015.png::CompressedTexture2D::62411092786979163::1711691830::1711691861::1::::<><>::
-tile_0016.png::CompressedTexture2D::18034815640537174::1711691830::1711691861::1::::<><>::
-tile_0017.png::CompressedTexture2D::7201256522511330548::1711691831::1711691861::1::::<><>::
-tile_0018.png::CompressedTexture2D::5607348367207809141::1711691831::1711691861::1::::<><>::
-tile_0019.png::CompressedTexture2D::3496276370945545870::1711691831::1711691861::1::::<><>::
-tile_0020.png::CompressedTexture2D::5676046700137383768::1711691831::1711691861::1::::<><>::
-tile_0021.png::CompressedTexture2D::2517743723699746962::1711691831::1711691861::1::::<><>::
-tile_0022.png::CompressedTexture2D::6311955847698908504::1711691831::1711691861::1::::<><>::
-tile_0023.png::CompressedTexture2D::1774024854183394330::1711691831::1711691861::1::::<><>::
-tile_0024.png::CompressedTexture2D::1965995864917283930::1711691831::1711691861::1::::<><>::
-tile_0025.png::CompressedTexture2D::8657737205157038876::1711691831::1711691861::1::::<><>::
-tile_0026.png::CompressedTexture2D::663211979674983660::1711691831::1711691861::1::::<><>::
-tile_0027.png::CompressedTexture2D::3780496252765102174::1711691831::1711691861::1::::<><>::
-tile_0028.png::CompressedTexture2D::6525846846454083688::1711691831::1711691861::1::::<><>::
-tile_0029.png::CompressedTexture2D::4884424720571664042::1711691831::1711691861::1::::<><>::
-tile_0030.png::CompressedTexture2D::6039082387908005868::1711691831::1711691861::1::::<><>::
-tile_0031.png::CompressedTexture2D::3322813199800683446::1711691831::1711691861::1::::<><>::
-tile_0032.png::CompressedTexture2D::3509176320125148175::1711691831::1711691861::1::::<><>::
-tile_0033.png::CompressedTexture2D::8127699067149918630::1711691831::1711691861::1::::<><>::
-tile_0034.png::CompressedTexture2D::2532004906225794680::1711691831::1711691861::1::::<><>::
-tile_0035.png::CompressedTexture2D::2970559805391385460::1711691831::1711691861::1::::<><>::
-tile_0036.png::CompressedTexture2D::792058711316946585::1711691831::1711691861::1::::<><>::
-tile_0037.png::CompressedTexture2D::8364574321497598048::1711691831::1711691861::1::::<><>::
-tile_0038.png::CompressedTexture2D::3189408528626504934::1711691831::1711691861::1::::<><>::
-tile_0039.png::CompressedTexture2D::8116513687122605780::1711691831::1711691861::1::::<><>::
-tile_0040.png::CompressedTexture2D::3688270174514917756::1711691831::1711691861::1::::<><>::
-tile_0041.png::CompressedTexture2D::1652305630617625586::1711691831::1711691861::1::::<><>::
-tile_0042.png::CompressedTexture2D::317072775503357240::1711691831::1711691861::1::::<><>::
-tile_0043.png::CompressedTexture2D::6703057861064292177::1711691831::1711691861::1::::<><>::
-tile_0044.png::CompressedTexture2D::8963902600338410486::1711691831::1711691861::1::::<><>::
-tile_0045.png::CompressedTexture2D::3128787723312223061::1711691831::1711691861::1::::<><>::
-tile_0046.png::CompressedTexture2D::2497239107376383333::1711691831::1711691861::1::::<><>::
-tile_0047.png::CompressedTexture2D::200920486593999377::1711691831::1711691861::1::::<><>::
-tile_0048.png::CompressedTexture2D::5089649790888046099::1711691831::1711691861::1::::<><>::
-tile_0049.png::CompressedTexture2D::3662968233686189966::1711691831::1711691861::1::::<><>::
-tile_0050.png::CompressedTexture2D::6594778293284838171::1711691831::1711691861::1::::<><>::
-tile_0051.png::CompressedTexture2D::2497742967216031626::1711691831::1711691861::1::::<><>::
-tile_0052.png::CompressedTexture2D::6337579438246925160::1711691831::1711691861::1::::<><>::
-tile_0053.png::CompressedTexture2D::3903551439009458641::1711691831::1711691861::1::::<><>::
-tile_0054.png::CompressedTexture2D::7449797492093122669::1711691831::1711691861::1::::<><>::
-tile_0055.png::CompressedTexture2D::800961852833396593::1711691831::1711691861::1::::<><>::
-tile_0056.png::CompressedTexture2D::6531523196195569317::1711691831::1711691861::1::::<><>::
-tile_0057.png::CompressedTexture2D::7372227944586592721::1711691831::1711691861::1::::<><>::
-tile_0058.png::CompressedTexture2D::4641460626745734211::1711691831::1711691861::1::::<><>::
-tile_0059.png::CompressedTexture2D::5412108899767374010::1711691831::1711691861::1::::<><>::
-tile_0060.png::CompressedTexture2D::6687299193868286948::1711691831::1711691861::1::::<><>::
-tile_0061.png::CompressedTexture2D::9060632872636381924::1711691831::1711691861::1::::<><>::
-tile_0062.png::CompressedTexture2D::6691118461051622884::1711691831::1711691861::1::::<><>::
-tile_0063.png::CompressedTexture2D::4383501482284486758::1711691831::1711691860::1::::<><>::
-::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/::1712123065
-tile_0000.png::CompressedTexture2D::4006416832612574746::1711691829::1711693071::1::::<><>::
-tile_0001.png::CompressedTexture2D::1146594765917320476::1711691829::1711693078::1::::<><>::
-tile_0002.png::CompressedTexture2D::2248017676021981450::1711691829::1711694640::1::::<><>::
-tile_0003.png::CompressedTexture2D::8824094707341159663::1711691829::1711694634::1::::<><>::
-tile_0004.png::CompressedTexture2D::3683265036091247922::1711691829::1711691860::1::::<><>::
-tile_0005.png::CompressedTexture2D::3629752487731947812::1711691829::1711691860::1::::<><>::
-tile_0006.png::CompressedTexture2D::7268758304175687194::1711691829::1711691860::1::::<><>::
-tile_0007.png::CompressedTexture2D::3686148316270912415::1711691829::1711691860::1::::<><>::
-tile_0008.png::CompressedTexture2D::3493727007317279516::1711691829::1711691860::1::::<><>::
-tile_0009.png::CompressedTexture2D::6479770731318593779::1711691829::1711691860::1::::<><>::
-tile_0010.png::CompressedTexture2D::8435632903978740864::1711691829::1711691860::1::::<><>::
-tile_0011.png::CompressedTexture2D::8886316358874483963::1711691829::1711693961::1::::<><>::
-tile_0012.png::CompressedTexture2D::273298239083871687::1711691829::1711693249::1::::<><>::
-tile_0013.png::CompressedTexture2D::3447752092317722627::1711691829::1711691860::1::::<><>::
-tile_0014.png::CompressedTexture2D::5151168220734493366::1711691829::1711694450::1::::<><>::
-tile_0015.png::CompressedTexture2D::6619283494724049002::1711691829::1711862569::1::::<><>::
-tile_0016.png::CompressedTexture2D::2275624318350255809::1711691829::1711694624::1::::<><>::
-tile_0017.png::CompressedTexture2D::3842751873691282972::1711691829::1711691860::1::::<><>::
-tile_0018.png::CompressedTexture2D::6729424481760526400::1711691829::1711691860::1::::<><>::
-tile_0019.png::CompressedTexture2D::868313602107045408::1711691829::1711691860::1::::<><>::
-tile_0020.png::CompressedTexture2D::4942517629171229276::1711691829::1711692720::1::::<><>::
-tile_0021.png::CompressedTexture2D::7153373129053807517::1711691829::1711692401::1::::<><>::
-tile_0022.png::CompressedTexture2D::4722910383219003198::1711691829::1711691860::1::::<><>::
-tile_0023.png::CompressedTexture2D::5288970450475059027::1711691829::1711694617::1::::<><>::
-tile_0024.png::CompressedTexture2D::2640917214957679395::1711691829::1711691860::1::::<><>::
-tile_0025.png::CompressedTexture2D::5754740919543289682::1711691829::1711691860::1::::<><>::
-tile_0026.png::CompressedTexture2D::965152650863353252::1711691829::1711694610::1::::<><>::
-tile_0027.png::CompressedTexture2D::3763161227349422659::1711691829::1711694764::1::::<><>::
-tile_0028.png::CompressedTexture2D::2189633713530410186::1711691830::1711694537::1::::<><>::
-tile_0029.png::CompressedTexture2D::5723725834729860499::1711691830::1711693089::1::::<><>::
-tile_0030.png::CompressedTexture2D::7876133842818661485::1711691830::1711691860::1::::<><>::
-tile_0031.png::CompressedTexture2D::5391344756622129524::1711691830::1711695800::1::::<><>::
-tile_0032.png::CompressedTexture2D::3444653807917806033::1711691830::1711695907::1::::<><>::
-tile_0033.png::CompressedTexture2D::7359309356495900610::1711691830::1711691861::1::::<><>::
-tile_0034.png::CompressedTexture2D::4732324861166398156::1711691830::1711694589::1::::<><>::
-tile_0035.png::CompressedTexture2D::2754564313025527691::1711691830::1711694592::1::::<><>::
-tile_0036.png::CompressedTexture2D::3046663321373917022::1711691830::1711695707::1::::<><>::
-tile_0037.png::CompressedTexture2D::2012420742239534802::1711691830::1711694565::1::::<><>::
-tile_0038.png::CompressedTexture2D::1697876353317338347::1711691830::1711691861::1::::<><>::
-tile_0039.png::CompressedTexture2D::8962578129866295699::1711691830::1711691861::1::::<><>::
-tile_0040.png::CompressedTexture2D::6197608846067642923::1711691830::1711694770::1::::<><>::
-tile_0041.png::CompressedTexture2D::7618986727980322742::1711691830::1711691861::1::::<><>::
-tile_0042.png::CompressedTexture2D::7727515234342704563::1711691830::1711694574::1::::<><>::
-tile_0043.png::CompressedTexture2D::5120063348671697817::1711691830::1711694596::1::::<><>::
-tile_0044.png::CompressedTexture2D::4640971601102329008::1711691830::1711694584::1::::<><>::
-tile_0045.png::CompressedTexture2D::2759018481489032921::1711691830::1711691861::1::::<><>::
-tile_0046.png::CompressedTexture2D::5705742649639006296::1711691830::1711691861::1::::<><>::
-tile_0047.png::CompressedTexture2D::4114199331416487858::1711691830::1711691861::1::::<><>::
-tile_0048.png::CompressedTexture2D::5119334108285412331::1711691830::1711863068::1::::<><>::
-tile_0049.png::CompressedTexture2D::7806897230827402206::1711691830::1711691861::1::::<><>::
-tile_0050.png::CompressedTexture2D::1711801581626616088::1711691830::1711691861::1::::<><>::
-tile_0051.png::CompressedTexture2D::8551313758743870918::1711691830::1711863059::1::::<><>::
-tile_0052.png::CompressedTexture2D::3196736563925656279::1711691830::1711691861::1::::<><>::
-tile_0053.png::CompressedTexture2D::7655381844007418424::1711691830::1711691861::1::::<><>::
-tile_0054.png::CompressedTexture2D::3166886483691426177::1711691830::1711691861::1::::<><>::
-tile_0055.png::CompressedTexture2D::8313353397402932970::1711691830::1711691861::1::::<><>::
-tile_0056.png::CompressedTexture2D::6867802989282968854::1711691830::1711691861::1::::<><>::
-tile_0057.png::CompressedTexture2D::1293640319711900291::1711691830::1711691861::1::::<><>::
-tile_0058.png::CompressedTexture2D::2974395779519586041::1711691830::1711691860::1::::<><>::
-tile_0059.png::CompressedTexture2D::2212511875730657329::1711691830::1711691860::1::::<><>::
-tile_0060.png::CompressedTexture2D::7781597500655076704::1711691830::1711691899::1::::<><>::
-tile_0061.png::CompressedTexture2D::6424018883758294992::1711691830::1711691860::1::::<><>::
-tile_0062.png::CompressedTexture2D::2426703805372712684::1711691830::1711691860::1::::<><>::
-tile_0063.png::CompressedTexture2D::1037009061646165518::1711691830::1711694776::1::::<><>::
-::res://resources/textures/orange/::1712123065
-texture_01.png::CompressedTexture2D::5558505345294041113::1711687812::1711687816::1::::<><>::
-texture_02.png::CompressedTexture2D::5135295449469028922::1711687812::1711687816::1::::<><>::
-texture_03.png::CompressedTexture2D::8210661392902364569::1711687812::1711687816::1::::<><>::
-texture_04.png::CompressedTexture2D::6676533539164594534::1711687812::1711687816::1::::<><>::
-texture_05.png::CompressedTexture2D::3274041550103537473::1711687812::1711687816::1::::<><>::
-texture_06.png::CompressedTexture2D::6776947395508371659::1711687812::1711687816::1::::<><>::
-texture_07.png::CompressedTexture2D::8450366403568792367::1711687812::1711687816::1::::<><>::
-texture_08.png::CompressedTexture2D::4268380465141622745::1711687812::1711687816::1::::<><>::
-texture_09.png::CompressedTexture2D::1714295247157162272::1711687812::1711687816::1::::<><>::
-texture_10.png::CompressedTexture2D::4641175782063585944::1711687812::1711687816::1::::<><>::
-texture_11.png::CompressedTexture2D::810498163563809612::1711687812::1711687816::1::::<><>::
-texture_12.png::CompressedTexture2D::4766850768602270668::1711687812::1711687816::1::::<><>::
-texture_13.png::CompressedTexture2D::7650414545386919133::1711687812::1711687816::1::::<><>::
-::res://resources/textures/purple/::1712123065
-texture_01.png::CompressedTexture2D::7045230665446139939::1711687812::1711687816::1::::<><>::
-texture_02.png::CompressedTexture2D::3575115269513856910::1711687812::1711687816::1::::<><>::
-texture_03.png::CompressedTexture2D::9050669827144760275::1711687812::1711687816::1::::<><>::
-texture_04.png::CompressedTexture2D::4105712539533061527::1711687812::1711687816::1::::<><>::
-texture_05.png::CompressedTexture2D::1791542952254952757::1711687812::1711687816::1::::<><>::
-texture_06.png::CompressedTexture2D::228663830054528995::1711687812::1711687816::1::::<><>::
-texture_07.png::CompressedTexture2D::4675730654602800232::1711687812::1711687816::1::::<><>::
-texture_08.png::CompressedTexture2D::4464213120338110273::1711687812::1711687816::1::::<><>::
-texture_09.png::CompressedTexture2D::7101158514394498062::1711687812::1711687816::1::::<><>::
-texture_10.png::CompressedTexture2D::5360092032181445171::1711687812::1711687816::1::::<><>::
-texture_11.png::CompressedTexture2D::1307776159321703066::1711687812::1711687816::1::::<><>::
-texture_12.png::CompressedTexture2D::4257326230138671576::1711687812::1711687816::1::::<><>::
-texture_13.png::CompressedTexture2D::2523944510377235540::1711687812::1711687816::1::::<><>::
+::res://::1712249111
+gui.tscn::PackedScene::7815632762789520973::1712249111::0::1::::<><>::res://code/gui.gd<>uid://c88cwfuk7xv68::::res://resources/materials/bgs/title.png<>uid://cinimdaeyn5mq::::res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf<>uid://ctq4uhowk1lai::::res://resources/materials/button.png<>uid://bmm5vjj35l2to::::res://resources/materials/bgs/death.png<>uid://cq85y42sen74w::::res://resources/materials/winButton.png<>uid://cwyuf7bl288q::::res://resources/materials/bgs/win.png
+icon.svg::CompressedTexture2D::5854819578207480252::1712165596::1712165667::1::::<><>::
+main.gd::GDScript::-1::1712165596::0::1::::<>Node3D<>::
+main.tscn::PackedScene::6200565692948744048::1712249111::0::1::::<><>::res://main.gd
+::res://code/::1712249108
+audioPlayer.gd::GDScript::-1::1712248934::0::1::::AudioPlayer<>Node<>::
+cloneTrigger.gd::GDScript::-1::1712165596::0::1::::<>Area3D<>::
+controller.gd::GDScript::-1::1712165596::0::1::::<>Node3D<>::
+gui.gd::GDScript::-1::1712248361::0::1::::<>Control<>::
+laser.gd::GDScript::-1::1712165596::0::1::::<>Area3D<>::
+level.gd::GDScript::-1::1712165596::0::1::::<>GridMap<>::
+player.gd::GDScript::-1::1712249108::0::1::::<>CharacterBody3D<>::
+resources.gd::GDScript::-1::1712165596::0::1::::<>Node<>::
+::res://resources/::1712249501
+::res://resources/fonts/::1712165596
+::res://resources/fonts/Madimi_One/::1712165667
+MadimiOne-Regular.ttf::FontFile::5361696350546638984::1712165596::1712165667::1::::<><>::
+OFL.txt::TextFile::-1::1712165596::0::1::::<><>::
+::res://resources/fonts/Open_Sans/::1712165667
+OFL.txt::TextFile::-1::1712165596::0::1::::<><>::
+OpenSans-Italic-VariableFont_wdth,wght.ttf::FontFile::9078056650407675147::1712165596::1712165667::1::::<><>::
+OpenSans-VariableFont_wdth,wght.ttf::FontFile::5476020683707003923::1712165596::1712165667::1::::<><>::
+README.txt::TextFile::-1::1712165596::0::1::::<><>::
+::res://resources/fonts/Open_Sans/static/::1712165667
+OpenSans-Bold.ttf::FontFile::4204069604316797052::1712165597::1712165667::1::::<><>::
+OpenSans-BoldItalic.ttf::FontFile::2318299861892968965::1712165597::1712165667::1::::<><>::
+OpenSans-ExtraBold.ttf::FontFile::2376173688375051553::1712165597::1712165667::1::::<><>::
+OpenSans-ExtraBoldItalic.ttf::FontFile::3227901795805593178::1712165597::1712165667::1::::<><>::
+OpenSans-Italic.ttf::FontFile::6829661256884933909::1712165597::1712165667::1::::<><>::
+OpenSans-Light.ttf::FontFile::6888212916973271227::1712165597::1712165667::1::::<><>::
+OpenSans-LightItalic.ttf::FontFile::7580547546391943854::1712165597::1712165667::1::::<><>::
+OpenSans-Medium.ttf::FontFile::3305436446228164686::1712165597::1712165667::1::::<><>::
+OpenSans-MediumItalic.ttf::FontFile::3959921522334422015::1712165597::1712165667::1::::<><>::
+OpenSans-Regular.ttf::FontFile::156069300428785080::1712165597::1712165667::1::::<><>::
+OpenSans-SemiBold.ttf::FontFile::7093917905439085993::1712165597::1712165667::1::::<><>::
+OpenSans-SemiBoldItalic.ttf::FontFile::2771585324400026096::1712165597::1712165667::1::::<><>::
+OpenSans_Condensed-Bold.ttf::FontFile::6436431740004294620::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-BoldItalic.ttf::FontFile::7071155046934642441::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-ExtraBold.ttf::FontFile::6033169146510159393::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-ExtraBoldItalic.ttf::FontFile::6560703885294358191::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-Italic.ttf::FontFile::5253700495018184361::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-Light.ttf::FontFile::1424847929715829385::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-LightItalic.ttf::FontFile::6366738347520241504::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-Medium.ttf::FontFile::3596837665326200036::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-MediumItalic.ttf::FontFile::5168701211054581063::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-Regular.ttf::FontFile::2578433234111422238::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-SemiBold.ttf::FontFile::6699493497485248772::1712165596::1712165667::1::::<><>::
+OpenSans_Condensed-SemiBoldItalic.ttf::FontFile::9121347296894708681::1712165596::1712165667::1::::<><>::
+OpenSans_SemiCondensed-Bold.ttf::FontFile::139432175829307449::1712165596::1712165667::1::::<><>::
+OpenSans_SemiCondensed-BoldItalic.ttf::FontFile::1428654484950384766::1712165596::1712165667::1::::<><>::
+OpenSans_SemiCondensed-ExtraBold.ttf::FontFile::2664653991033533806::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-ExtraBoldItalic.ttf::FontFile::4184728945756047871::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-Italic.ttf::FontFile::298944609564646815::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-Light.ttf::FontFile::6482141387073372288::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-LightItalic.ttf::FontFile::4871886459537016951::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-Medium.ttf::FontFile::6194769232095634301::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-MediumItalic.ttf::FontFile::314104018735237631::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-Regular.ttf::FontFile::3209541874888416258::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-SemiBold.ttf::FontFile::1973240472232763387::1712165597::1712165667::1::::<><>::
+OpenSans_SemiCondensed-SemiBoldItalic.ttf::FontFile::40419786329272822::1712165597::1712165667::1::::<><>::
+::res://resources/levels/::1712249264
+Button1.gd::GDScript::-1::1712165597::0::1::::<>Area3D<>::
+laserMovement.gd::GDScript::-1::1712165597::0::1::::<>MeshInstance3D<>::
+level1.gd::GDScript::-1::1712248429::0::1::::<>GridMap<>::
+level1.tscn::PackedScene::9149552530463543517::1712249264::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://resources/levels/level1.gd<>res://code/cloneTrigger.gd<>res://code/laser.gd<>uid://bjn3dnl0sf5ne::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0036.png<>uid://d5nggqaqf8il::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0012.png<>res://resources/levels/laserMovement.gd<>uid://bpintglddkyvh::::res://resources/meshLibrary/button/button.obj<>uid://djl7lhfri6dg4::::res://gui.tscn
+test.tscn::PackedScene::665599396346466580::1712165598::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://code/cloneTrigger.gd<>res://code/level.gd<>res://code/laser.gd
+::res://resources/materials/::1712248045
+button.png::CompressedTexture2D::6141256339546789348::1712165598::1712165668::1::::<><>::
+deadPlayer.tres::StandardMaterial3D::5963990779487203512::1712165598::0::1::::<><>::
+winButton.png::CompressedTexture2D::5965853266026009624::1712248025::1712248045::1::::<><>::
+::res://resources/materials/bgs/::1712248207
+death.png::CompressedTexture2D::3255318839779340920::1712165598::1712165668::1::::<><>::
+title.png::CompressedTexture2D::7157358688787569419::1712165598::1712165671::1::::<><>::
+win.png::CompressedTexture2D::187287233681600542::1712248191::1712248207::1::::<><>::
+::res://resources/materials/dark/::1712165598
+darkMaterial4.tres::StandardMaterial3D::8245483199832603517::1712165598::0::1::::<><>::uid://ccogsp8tj4ayu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0020.png
+darkMaterial5.tres::StandardMaterial3D::2054399036907675258::1712165598::0::1::::<><>::uid://n0spr72bglev::::res://resources/textures/dark/texture_06.png
+darkMaterial6.tres::StandardMaterial3D::3794671715387864057::1712165598::0::1::::<><>::uid://drabbk7pk78x2::::res://resources/textures/dark/texture_03.png
+::res://resources/materials/orange/::1712165598
+orangeMaterial4.tres::StandardMaterial3D::824347733431631654::1712165598::0::1::::<><>::uid://bmv78r2ht76o0::::res://resources/textures/orange/texture_05.png
+orangeMaterial5.tres::StandardMaterial3D::7703541402300386166::1712165598::0::1::::<><>::
+orangeMaterial6.tres::StandardMaterial3D::520955379628148835::1712165598::0::1::::<><>::uid://dsnokg4jl8etb::::res://resources/textures/orange/texture_07.png
+::res://resources/materials/purple/::1712165598
+orangeMaterial4.tres::StandardMaterial3D::5659990913964572683::1712165598::0::1::::<><>::uid://0r3pk8mqlfw4::::res://resources/textures/purple/texture_05.png
+orangeMaterial5.tres::StandardMaterial3D::3251391918291877132::1712165598::0::1::::<><>::uid://di1cbhif2hkl::::res://resources/textures/purple/texture_06.png
+orangeMaterial6.tres::StandardMaterial3D::6017065631082473573::1712165598::0::1::::<><>::uid://b7u7uop24jjam::::res://resources/textures/purple/texture_07.png
+::res://resources/meshLibrary/::1712247655
+src.tscn::PackedScene::1115269152787235634::1712165598::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://l0k5fcco1hmc::::res://resources/materials/orange/orangeMaterial4.tres<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://cmv0hujhqohod::::res://resources/materials/purple/orangeMaterial4.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
+testMeshLib.tres::MeshLibrary::8601920970006167477::1712247655::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://qloipag56bwu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0001.png<>uid://bkpu1kd4jo2h::::res://resources/meshLibrary/kenney_conveyor-kit/Previews/floor.png<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
+::res://resources/meshLibrary/button/::1712165671
+button.obj::Mesh::3456591943559908305::1712165598::1712165671::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/::1712165669
+contents.png::CompressedTexture2D::2198252013306175302::1712165598::1712165669::1::::<><>::
+License.txt::TextFile::-1::1712165598::0::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/::1712165599
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/fbx/::1712165668
+barbarian_texture.png::CompressedTexture2D::8628376876889481249::1712165598::1712165668::1::::<><>::
+knight_texture.png::CompressedTexture2D::5182612331252058358::1712165598::1712165668::1::::<><>::
+mage_texture.png::CompressedTexture2D::3961654547404451418::1712165598::1712165668::1::::<><>::
+rogue_texture.png::CompressedTexture2D::2819232248925629077::1712165598::1712165668::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/::1712165676
+arrow.gltf::PackedScene::1116288470744976559::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+arrow_bundle.gltf::PackedScene::6758427532367116274::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+axe_1handed.gltf::PackedScene::5398450860180448585::1712165599::1712165675::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
+axe_2handed.gltf::PackedScene::8849187958795998049::1712165599::1712165675::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
+barbarian_texture.png::CompressedTexture2D::7953628528264428481::1712165599::1712165668::1::::<><>::
+crossbow_1handed.gltf::PackedScene::3885518122886772715::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+crossbow_2handed.gltf::PackedScene::3219599359349737217::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+dagger.gltf::PackedScene::5473217984269860439::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+knight_texture.png::CompressedTexture2D::3118222502930689717::1712165599::1712165668::1::::<><>::
+mage_texture.png::CompressedTexture2D::2050805723952542131::1712165599::1712165668::1::::<><>::
+mug_empty.gltf::PackedScene::1368635388497254814::1712165599::1712165675::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
+mug_full.gltf::PackedScene::3734669262797199767::1712165599::1712165675::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
+quiver.gltf::PackedScene::732015647716691938::1712165599::1712165675::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+rogue_texture.png::CompressedTexture2D::8312331905044132347::1712165599::1712165668::1::::<><>::
+shield_badge.gltf::PackedScene::8715424395224559824::1712165599::1712165675::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_badge_color.gltf::PackedScene::6997153977368601076::1712165599::1712165675::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_round.gltf::PackedScene::7197634565581567772::1712165599::1712165675::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_round_barbarian.gltf::PackedScene::6691468804754447332::1712165599::1712165676::1::::<><>::uid://dlk2dnnmgm77b::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/barbarian_texture.png
+shield_round_color.gltf::PackedScene::8332689866403286126::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_spikes.gltf::PackedScene::657027945070124862::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_spikes_color.gltf::PackedScene::8170853939987085325::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_square.gltf::PackedScene::969084687264524894::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+shield_square_color.gltf::PackedScene::689446638122729816::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+smokebomb.gltf::PackedScene::1219019307537925926::1712165600::1712165673::1::::<><>::uid://dqos5lgkyk380::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/rogue_texture.png
+spellbook_closed.gltf::PackedScene::8481319453714268749::1712165600::1712165673::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
+spellbook_open.gltf::PackedScene::3819523012596536264::1712165600::1712165673::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
+staff.gltf::PackedScene::1507422001020383224::1712165600::1712165673::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
+sword_1handed.gltf::PackedScene::7043308129131670700::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+sword_2handed.gltf::PackedScene::680533271922442971::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+sword_2handed_color.gltf::PackedScene::6908116846468857939::1712165600::1712165673::1::::<><>::uid://bkoqw0ofja7hx::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/knight_texture.png
+wand.gltf::PackedScene::1642315275128797110::1712165600::1712165673::1::::<><>::uid://4hoqacktp3kh::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Assets/gltf/mage_texture.png
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/::1712165601
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/fbx/::1712165668
+barbarian_texture.png::CompressedTexture2D::1598054432534061591::1712165600::1712165668::1::::<><>::
+knight_texture.png::CompressedTexture2D::4018074138342530107::1712165600::1712165668::1::::<><>::
+mage_texture.png::CompressedTexture2D::6159534147806001229::1712165600::1712165668::1::::<><>::
+rogue_texture.png::CompressedTexture2D::511256842113404440::1712165601::1712165668::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/::1712165678
+Barbarian.glb::PackedScene::3481912623030858411::1712165601::1712165674::1::::<><>::uid://basv1872t2uev::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Barbarian_barbarian_texture.png
+Barbarian_barbarian_texture.png::CompressedTexture2D::2424902754713327445::1712165601::1712165668::1::::<><>::
+barbarian_texture.png::CompressedTexture2D::5982166266234033533::1712165601::1712165668::1::::<><>::
+Knight.glb::PackedScene::5305863702314778326::1712165601::1712165674::1::::<><>::uid://cyt8mmx72fm7g::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Knight_knight_texture.png
+Knight_knight_texture.png::CompressedTexture2D::6498622549615196558::1712165601::1712165668::1::::<><>::
+knight_texture.png::CompressedTexture2D::7014957367627169281::1712165601::1712165668::1::::<><>::
+Mage.glb::PackedScene::7288668172305450159::1712165601::1712165677::1::::<><>::uid://b0ucgn2e138h0::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Mage_mage_texture.png
+Mage_mage_texture.png::CompressedTexture2D::4182562203204964939::1712165601::1712165668::1::::<><>::
+mage_texture.png::CompressedTexture2D::4467340340251833967::1712165601::1712165668::1::::<><>::
+Rogue.glb::PackedScene::6504838936613841717::1712165601::1712165677::1::::<><>::uid://4rpqcg8xjv1e::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_rogue_texture.png
+Rogue_Hooded.glb::PackedScene::112670645149721661::1712165601::1712165678::1::::<><>::uid://cw8vct00kffjj::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_Hooded_rogue_texture.png
+Rogue_Hooded_rogue_texture.png::CompressedTexture2D::6386400059456007415::1712165601::1712165668::1::::<><>::
+Rogue_rogue_texture.png::CompressedTexture2D::2071510330761941028::1712165601::1712165668::1::::<><>::
+rogue_texture.png::CompressedTexture2D::2241718036182344668::1712165601::1712165668::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Samples/::1712165669
+barbarian.png::CompressedTexture2D::4577118525654663359::1712165601::1712165668::1::::<><>::
+druid.png::CompressedTexture2D::56956694998942990::1712165601::1712165669::1::::<><>::
+engineer.png::CompressedTexture2D::3925962517937213565::1712165601::1712165669::1::::<><>::
+knight.png::CompressedTexture2D::1524398266953854175::1712165601::1712165668::1::::<><>::
+mage.png::CompressedTexture2D::4677401538020046496::1712165601::1712165669::1::::<><>::
+rogue.png::CompressedTexture2D::3921731371153229589::1712165601::1712165668::1::::<><>::
+::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Textures/::1712165668
+barbarian_texture.png::CompressedTexture2D::1956073264598246469::1712165601::1712165668::1::::<><>::
+knight_texture.png::CompressedTexture2D::1109461981289041370::1712165602::1712165668::1::::<><>::
+mage_texture.png::CompressedTexture2D::4374437466080018406::1712165602::1712165668::1::::<><>::
+rogue_texture.png::CompressedTexture2D::7875206801736667884::1712165602::1712165668::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/::1712165667
+conveyorKit.tscn::PackedScene::3818388020351270731::1712165602::0::1::::<><>::uid://fll7b0f1noc1::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/arrow-basic.obj<>uid://b0t8rxe0b8ysk::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/arrow.obj<>uid://bdrpssev4jgdt::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-large.obj<>uid://bbiqrk7pxje4s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-long.obj<>uid://dy248sa0fg6v3::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-small.obj<>uid://b5d6v7en1u7ik::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/box-wide.obj<>uid://cbaf4d75nskit::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-fence.obj<>uid://cd7u56vl2em0s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-high.obj<>uid://bc1ugexaaxsh8::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-sides.obj<>uid://br35ijjjds5uw::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-fence.obj<>uid://by4msmaddjgpr::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-high.obj<>uid://bjtyhi1pu4q04::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-side.obj<>uid://cv8tagc13xdq6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe.obj<>uid://8px2k5xg1s03::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-bars.obj<>uid://bbmnowjfnn2xg::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-sides.obj<>uid://bujnkjw7ojrab::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe-sides.obj<>uid://niwlsfmf0nak::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe.obj<>uid://ck53nb6n23iql::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-long.obj<>uid://ca0ca2um1d2st::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-sides.obj<>uid://82ihgth24ca3::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe-sides.obj<>uid://c2dsc7ajiot2s::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe.obj<>uid://bvv0mb3j1150e::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/conveyor.obj<>uid://c43x4df5e02dm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-bar.obj<>uid://vquuk6aw66b::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-corner.obj<>uid://dy4p0ggfl1x6x::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-hopper.obj<>uid://c86ehxkbflbfv::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-bar.obj<>uid://78ew8edtv73m::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-corner.obj<>uid://beekjy4nwebr5::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-hopper.obj<>uid://kcpvjgc2jbvi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-top.obj<>uid://cmyquw6m8s36p::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-window.obj<>uid://cac3saa1mq473::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe.obj<>uid://btduo0f3diie4::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-top.obj<>uid://c68uplgneknm2::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-window.obj<>uid://djptrcpsm4p1c::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover.obj<>uid://bmk7p0ithqt8r::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-closed.obj<>uid://fdiul5wr5l4k::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-half.obj<>uid://dlo76ms2jdmrf::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door-wide-open.obj<>uid://cbd4y0ata7orm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/door.obj<>uid://dyoub5cwvo23u::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/floor-large.obj<>uid://4okrwnxypbno::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/floor.obj<>uid://663ajk0vjua6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/robot-arm-a.obj<>uid://c13yi647uwegg::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/robot-arm-b.obj<>uid://7uqx1hwtoqj7::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/scanner-high.obj<>uid://dgqjyva7ms2kh::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/scanner-low.obj<>uid://brtg1njg1g1cl::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-corner-inner.obj<>uid://kwa04jtod0qn::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-corner-outer.obj<>uid://8h70dnlyyabm::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-doorway-wide.obj<>uid://domkflk3cr6p1::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-doorway.obj<>uid://ck00rn6706svo::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-high.obj<>uid://c7gnskn8h8rx::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-medium.obj<>uid://dsy78xy7t22ce::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-short.obj<>uid://dbxa2gn04shtv::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-tall.obj<>uid://duyxrqv6lj875::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-wall.obj<>uid://bo3mtj1iaaxpx::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-window-wide.obj<>uid://d051dtljl1d1l::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-window.obj<>uid://bi6e8ryx4dw72::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-high.obj<>uid://cme7id4gveywh::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-medium.obj<>uid://c2e8ii2kkigre::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-short.obj<>uid://2jxw83ibv4ls::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-yellow-tall.obj<>uid://dwj5a1vyje3x6::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/top-large.obj<>uid://rjvebdanxexw::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/top.obj
+License.txt::TextFile::-1::1712165602::0::1::::<><>::
+Preview (Variation A).png::CompressedTexture2D::6318906080510603703::1712165602::1712165667::1::::<><>::
+Preview.png::CompressedTexture2D::6378719451891977926::1712165602::1712165667::1::::<><>::
+Sample.png::CompressedTexture2D::5235577030776951600::1712165602::1712165667::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/::1712165608
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/FBX format/::1712165603
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/FBX format/Textures/::1712165668
+colormap.png::CompressedTexture2D::3921190661419814662::1712165603::1712165668::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/::1712165679
+arrow-basic.glb::PackedScene::4050393422209332064::1712165603::1712165679::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+arrow.glb::PackedScene::2091318169947432184::1712165603::1712165679::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+box-large.glb::PackedScene::5126579323756958382::1712165603::1712165679::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+box-long.glb::PackedScene::6723234558965456272::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+box-small.glb::PackedScene::6285702556675016814::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+box-wide.glb::PackedScene::6421538944632486355::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-fence.glb::PackedScene::6254744776240346824::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-high.glb::PackedScene::6696235135563577938::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-sides.glb::PackedScene::2632577603814621205::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-stripe-fence.glb::PackedScene::8286716480298389530::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-stripe-high.glb::PackedScene::9218556922756855018::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-stripe-side.glb::PackedScene::5530163538203684185::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars-stripe.glb::PackedScene::707773381979190777::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-bars.glb::PackedScene::6359145381389544561::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-long-sides.glb::PackedScene::7975494836139421795::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-long-stripe-sides.glb::PackedScene::6355905904072116005::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-long-stripe.glb::PackedScene::5709671947028563934::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-long.glb::PackedScene::6527383303540950855::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-sides.glb::PackedScene::7413807057053412436::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-stripe-sides.glb::PackedScene::1097747208504593267::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor-stripe.glb::PackedScene::3187351342144175037::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+conveyor.glb::PackedScene::6877122406486652197::1712165603::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-bar.glb::PackedScene::5082041170649038064::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-corner.glb::PackedScene::1397349015790759464::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-hopper.glb::PackedScene::4822107306727865247::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe-bar.glb::PackedScene::1794433560233026095::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe-corner.glb::PackedScene::3586449841993600577::1712165604::1712165676::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe-hopper.glb::PackedScene::6602988249110409017::1712165604::1712165679::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe-top.glb::PackedScene::1797538927348949378::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe-window.glb::PackedScene::1844347505852687933::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-stripe.glb::PackedScene::5748108648308537397::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-top.glb::PackedScene::4496609643614784681::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover-window.glb::PackedScene::4709555678443420395::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+cover.glb::PackedScene::2412973167471939756::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+door-wide-closed.glb::PackedScene::8755126387916657135::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+door-wide-half.glb::PackedScene::944781806676276622::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+door-wide-open.glb::PackedScene::3820193998570789051::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+door.glb::PackedScene::7085707194283026453::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+floor-large.glb::PackedScene::4063006479792089799::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+floor.glb::PackedScene::7675951488515166751::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+robot-arm-a.glb::PackedScene::8726510983749104269::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+robot-arm-b.glb::PackedScene::1731295948489236926::1712165604::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+scanner-high.glb::PackedScene::7520482973008973019::1712165605::1712165678::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+scanner-low.glb::PackedScene::3298495034516561272::1712165605::1712165677::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-corner-inner.glb::PackedScene::884721316330836030::1712165605::1712165677::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-corner-outer.glb::PackedScene::9087938257368905480::1712165605::1712165677::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-doorway-wide.glb::PackedScene::869739188530856058::1712165605::1712165674::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-doorway.glb::PackedScene::3832860093654012220::1712165605::1712165674::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-high.glb::PackedScene::4026513968848582015::1712165605::1712165674::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-medium.glb::PackedScene::4733949350200280310::1712165605::1712165674::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-short.glb::PackedScene::6232241397360854806::1712165605::1712165674::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-tall.glb::PackedScene::8212897484907721976::1712165605::1712165673::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-wall.glb::PackedScene::5227050371522089215::1712165605::1712165673::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-window-wide.glb::PackedScene::6212818042884200150::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-window.glb::PackedScene::4074172312648367918::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-yellow-high.glb::PackedScene::4822341944224342865::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-yellow-medium.glb::PackedScene::6706592496582625503::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-yellow-short.glb::PackedScene::8187611444510015100::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+structure-yellow-tall.glb::PackedScene::601286165020139654::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+top-large.glb::PackedScene::3646878608520245756::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+top.glb::PackedScene::780149337706738492::1712165605::1712165675::1::::<><>::uid://hnxol15ey0ww::::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/colormap.png
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/GLB format/Textures/::1712165668
+colormap.png::CompressedTexture2D::519580927508448422::1712165605::1712165668::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/::1712165672
+arrow-basic.obj::Mesh::374377497216116862::1712165605::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+arrow.obj::Mesh::4182400186583541254::1712165605::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+box-large.obj::Mesh::2633025488200778185::1712165605::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+box-long.obj::Mesh::2474126955124127508::1712165605::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+box-small.obj::Mesh::8901353168303925634::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+box-wide.obj::Mesh::4500200542096665978::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-fence.obj::Mesh::4843385792396254955::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-high.obj::Mesh::5050737561303478148::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-sides.obj::Mesh::2581697492818305871::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-stripe-fence.obj::Mesh::3639269885814620118::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-stripe-high.obj::Mesh::4131581264497975679::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-stripe-side.obj::Mesh::3058813623207390903::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars-stripe.obj::Mesh::6316085491980773763::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-bars.obj::Mesh::2348642786266736454::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-long-sides.obj::Mesh::2482197552062518680::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-long-stripe-sides.obj::Mesh::3809584643254163821::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-long-stripe.obj::Mesh::930326360597944342::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-long.obj::Mesh::5538384528546682811::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-sides.obj::Mesh::4824573694829891227::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-stripe-sides.obj::Mesh::2372468620760804572::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor-stripe.obj::Mesh::6675231437500249220::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+conveyor.obj::Mesh::3905277783495651550::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-bar.obj::Mesh::6867568855523180134::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-corner.obj::Mesh::44360187922063403::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-hopper.obj::Mesh::8904616977650786993::1712165606::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe-bar.obj::Mesh::7153325509883172235::1712165607::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe-corner.obj::Mesh::2314451357350314876::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe-hopper.obj::Mesh::2676058117314228804::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe-top.obj::Mesh::706965930558228494::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe-window.obj::Mesh::5665660948895091837::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-stripe.obj::Mesh::4778702344180091344::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-top.obj::Mesh::3727442509132193909::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover-window.obj::Mesh::7018061700435173783::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+cover.obj::Mesh::7823111420545235546::1712165606::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+door-wide-closed.obj::Mesh::3251301641882656015::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+door-wide-half.obj::Mesh::357659428397044816::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+door-wide-open.obj::Mesh::7962239582359671935::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+door.obj::Mesh::4851028310078659942::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+floor-large.obj::Mesh::8873913292416489400::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+floor.obj::Mesh::2065016459157662436::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+robot-arm-a.obj::Mesh::2241550428274838951::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+robot-arm-b.obj::Mesh::6657027047771064466::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+scanner-high.obj::Mesh::2288344474088581298::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+scanner-low.obj::Mesh::7614015573422131223::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-corner-inner.obj::Mesh::3619265632479328263::1712165607::1712165672::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-corner-outer.obj::Mesh::747350929779784361::1712165607::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-doorway-wide.obj::Mesh::2332670251134949262::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-doorway.obj::Mesh::8167295088438127804::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-high.obj::Mesh::5527888263114635880::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-medium.obj::Mesh::206826254186760261::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-short.obj::Mesh::8474209424221484860::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-tall.obj::Mesh::7276980135894056439::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-wall.obj::Mesh::8614011713505483258::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-window-wide.obj::Mesh::3427630118975195377::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-window.obj::Mesh::8977499489206694891::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-yellow-high.obj::Mesh::3012229873399311995::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-yellow-medium.obj::Mesh::5625322434848835651::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-yellow-short.obj::Mesh::6678216066106407998::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+structure-yellow-tall.obj::Mesh::1915115733203706164::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+top-large.obj::Mesh::8723818919836211597::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+top.obj::Mesh::1213071998832849020::1712165608::1712165671::1::::<><>::uid://qirb3bbbonsi::::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/colormap.png
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/Textures/::1712165668
+colormap.png::CompressedTexture2D::1140571967157877248::1712165608::1712165668::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/Models/Textures/::1712165668
+variation-a.png::CompressedTexture2D::4867145575492728609::1712165608::1712165668::1::::<><>::
+::res://resources/meshLibrary/kenney_conveyor-kit/Previews/::1712165668
+arrow-basic.png::CompressedTexture2D::134492713420167481::1712165608::1712165668::1::::<><>::
+arrow.png::CompressedTexture2D::1537558269586837370::1712165608::1712165668::1::::<><>::
+box-large.png::CompressedTexture2D::8701672706063272638::1712165608::1712165668::1::::<><>::
+box-long.png::CompressedTexture2D::3448867801456438339::1712165608::1712165668::1::::<><>::
+box-small.png::CompressedTexture2D::1171900821737035094::1712165608::1712165668::1::::<><>::
+box-wide.png::CompressedTexture2D::5714216854090524130::1712165608::1712165668::1::::<><>::
+conveyor-bars-fence.png::CompressedTexture2D::3004131742241823208::1712165609::1712165668::1::::<><>::
+conveyor-bars-high.png::CompressedTexture2D::7208576064184076793::1712165609::1712165668::1::::<><>::
+conveyor-bars-sides.png::CompressedTexture2D::2990078451787448134::1712165609::1712165668::1::::<><>::
+conveyor-bars-stripe-fence.png::CompressedTexture2D::5436639441487091633::1712165609::1712165668::1::::<><>::
+conveyor-bars-stripe-high.png::CompressedTexture2D::4653206413169879665::1712165609::1712165668::1::::<><>::
+conveyor-bars-stripe-side.png::CompressedTexture2D::1476222487185054868::1712165609::1712165668::1::::<><>::
+conveyor-bars-stripe.png::CompressedTexture2D::4329077451340280256::1712165609::1712165668::1::::<><>::
+conveyor-bars.png::CompressedTexture2D::2543536707997283539::1712165609::1712165668::1::::<><>::
+conveyor-long-sides.png::CompressedTexture2D::4652960107197758489::1712165609::1712165668::1::::<><>::
+conveyor-long-stripe-sides.png::CompressedTexture2D::406092073467217873::1712165609::1712165668::1::::<><>::
+conveyor-long-stripe.png::CompressedTexture2D::1236924675168850493::1712165609::1712165668::1::::<><>::
+conveyor-long.png::CompressedTexture2D::4550363521783139560::1712165609::1712165668::1::::<><>::
+conveyor-sides.png::CompressedTexture2D::4860771882505818536::1712165609::1712165668::1::::<><>::
+conveyor-stripe-sides.png::CompressedTexture2D::8859582564251031977::1712165609::1712165668::1::::<><>::
+conveyor-stripe.png::CompressedTexture2D::5089246337904816219::1712165609::1712165668::1::::<><>::
+conveyor.png::CompressedTexture2D::9205262987676484361::1712165608::1712165667::1::::<><>::
+cover-bar.png::CompressedTexture2D::5903410719620933942::1712165609::1712165667::1::::<><>::
+cover-corner.png::CompressedTexture2D::5202362360408953171::1712165609::1712165667::1::::<><>::
+cover-hopper.png::CompressedTexture2D::7736856022845415899::1712165609::1712165667::1::::<><>::
+cover-stripe-bar.png::CompressedTexture2D::964483000786706360::1712165609::1712165667::1::::<><>::
+cover-stripe-corner.png::CompressedTexture2D::8691706759152482781::1712165609::1712165667::1::::<><>::
+cover-stripe-hopper.png::CompressedTexture2D::3413850849113447061::1712165609::1712165667::1::::<><>::
+cover-stripe-top.png::CompressedTexture2D::3706540238915484815::1712165609::1712165667::1::::<><>::
+cover-stripe-window.png::CompressedTexture2D::6373913634679562024::1712165609::1712165667::1::::<><>::
+cover-stripe.png::CompressedTexture2D::2559780422705754846::1712165609::1712165667::1::::<><>::
+cover-top.png::CompressedTexture2D::8182063419133405819::1712165609::1712165667::1::::<><>::
+cover-window.png::CompressedTexture2D::577255565678509317::1712165609::1712165667::1::::<><>::
+cover.png::CompressedTexture2D::3290464107234201332::1712165609::1712165667::1::::<><>::
+door-wide-closed.png::CompressedTexture2D::2187009547904305292::1712165609::1712165667::1::::<><>::
+door-wide-half.png::CompressedTexture2D::8954806062137393505::1712165609::1712165667::1::::<><>::
+door-wide-open.png::CompressedTexture2D::1049398829945530867::1712165609::1712165667::1::::<><>::
+door.png::CompressedTexture2D::1369952340171878064::1712165609::1712165667::1::::<><>::
+floor-large.png::CompressedTexture2D::3971146693152501260::1712165610::1712165667::1::::<><>::
+floor.png::CompressedTexture2D::91780473178803789::1712165610::1712165667::1::::<><>::
+robot-arm-a.png::CompressedTexture2D::3024197806038199673::1712165610::1712165667::1::::<><>::
+robot-arm-b.png::CompressedTexture2D::8094399561570826186::1712165610::1712165667::1::::<><>::
+scanner-high.png::CompressedTexture2D::8590265959362500078::1712165610::1712165667::1::::<><>::
+scanner-low.png::CompressedTexture2D::5186013567174210689::1712165610::1712165667::1::::<><>::
+structure-corner-inner.png::CompressedTexture2D::7029229245075339749::1712165610::1712165667::1::::<><>::
+structure-corner-outer.png::CompressedTexture2D::3842924384109033832::1712165610::1712165667::1::::<><>::
+structure-doorway-wide.png::CompressedTexture2D::4674614612225941235::1712165610::1712165667::1::::<><>::
+structure-doorway.png::CompressedTexture2D::5925309563442234982::1712165610::1712165667::1::::<><>::
+structure-high.png::CompressedTexture2D::5008638531341768043::1712165610::1712165667::1::::<><>::
+structure-medium.png::CompressedTexture2D::5937920496711063090::1712165610::1712165667::1::::<><>::
+structure-short.png::CompressedTexture2D::2586259926382640299::1712165610::1712165667::1::::<><>::
+structure-tall.png::CompressedTexture2D::7849475532197497365::1712165610::1712165667::1::::<><>::
+structure-wall.png::CompressedTexture2D::1548912256835093235::1712165610::1712165667::1::::<><>::
+structure-window-wide.png::CompressedTexture2D::1191974955357447083::1712165610::1712165667::1::::<><>::
+structure-window.png::CompressedTexture2D::6202972650518228490::1712165610::1712165667::1::::<><>::
+structure-yellow-high.png::CompressedTexture2D::4390694439894574028::1712165610::1712165667::1::::<><>::
+structure-yellow-medium.png::CompressedTexture2D::8287998456802453760::1712165610::1712165667::1::::<><>::
+structure-yellow-short.png::CompressedTexture2D::2308897504322395112::1712165610::1712165667::1::::<><>::
+structure-yellow-tall.png::CompressedTexture2D::1386377205821728908::1712165610::1712165667::1::::<><>::
+top-large.png::CompressedTexture2D::1985908132909326745::1712165610::1712165667::1::::<><>::
+top.png::CompressedTexture2D::1874222828395629442::1712165610::1712165667::1::::<><>::
+::res://resources/prefabs/::1712249111
+player.tscn::PackedScene::6136664469919300523::1712249111::0::1::::<><>::res://code/player.gd<>uid://4rpqcg8xjv1e::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_rogue_texture.png
+::res://resources/sounds/::1712249501
+death.wav::AudioStreamWAV::6721586366371634540::1712248934::1712249506::1::::<><>::
+spawn.wav::AudioStreamWAV::5022169003377923808::1712248934::1712249506::1::::<><>::
+::res://resources/sounds/music/::1712249501
+bass.wav::AudioStreamWAV::493178310948702818::1712248934::1712249506::1::::<><>::
+chords1.wav::AudioStreamWAV::4168526844912793365::1712248934::1712249506::1::::<><>::
+chords2.wav::AudioStreamWAV::7391937623343941395::1712248934::1712249506::1::::<><>::
+drums.wav::AudioStreamWAV::7378147728361292435::1712248934::1712249506::1::::<><>::
+::res://resources/textures/::1712165616
+::res://resources/textures/dark/::1712165667
+texture_02.png::CompressedTexture2D::641320338228599924::1712165610::1712165667::1::::<><>::
+texture_03.png::CompressedTexture2D::8352535471075959213::1712165610::1712165667::1::::<><>::
+texture_04.png::CompressedTexture2D::655767666793126600::1712165610::1712165667::1::::<><>::
+texture_05.png::CompressedTexture2D::464987960133455840::1712165611::1712165667::1::::<><>::
+texture_06.png::CompressedTexture2D::965185047483320425::1712165611::1712165667::1::::<><>::
+texture_07.png::CompressedTexture2D::714721089158662076::1712165611::1712165667::1::::<><>::
+texture_08.png::CompressedTexture2D::1426878326109713619::1712165611::1712165667::1::::<><>::
+texture_09.png::CompressedTexture2D::3997260331733244381::1712165611::1712165667::1::::<><>::
+texture_10.png::CompressedTexture2D::1429041543296139894::1712165611::1712165667::1::::<><>::
+texture_11.png::CompressedTexture2D::762128964000361265::1712165611::1712165667::1::::<><>::
+texture_12.png::CompressedTexture2D::5847679272120036620::1712165611::1712165667::1::::<><>::
+texture_13.png::CompressedTexture2D::2098075402065764660::1712165611::1712165667::1::::<><>::
+::res://resources/textures/kenney_pattern-pack-pixel/::1712165667
+License.txt::TextFile::-1::1712165611::0::1::::<><>::
+Preview.png::CompressedTexture2D::176613633064847493::1712165611::1712165667::1::::<><>::
+Tilesheet.txt::TextFile::-1::1712165611::0::1::::<><>::
+::res://resources/textures/kenney_pattern-pack-pixel/Tilemap/::1712165667
+tilemap_color.png::CompressedTexture2D::2011792155975113608::1712165611::1712165667::1::::<><>::
+tilemap_color_packed.png::CompressedTexture2D::7975767221569357507::1712165611::1712165667::1::::<><>::
+tilemap_grayscale.png::CompressedTexture2D::8641168620732246960::1712165611::1712165667::1::::<><>::
+tilemap_grayscale_packed.png::CompressedTexture2D::7454831068910644854::1712165611::1712165667::1::::<><>::
+::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Color)/::1712165668
+tile_0000.png::CompressedTexture2D::4210843959437384902::1712165611::1712165667::1::::<><>::
+tile_0001.png::CompressedTexture2D::176152333215112566::1712165611::1712165667::1::::<><>::
+tile_0002.png::CompressedTexture2D::1553860855522267306::1712165611::1712165667::1::::<><>::
+tile_0003.png::CompressedTexture2D::6287302511261762957::1712165611::1712165667::1::::<><>::
+tile_0004.png::CompressedTexture2D::3210903240890848400::1712165611::1712165667::1::::<><>::
+tile_0005.png::CompressedTexture2D::8901537674506111942::1712165611::1712165667::1::::<><>::
+tile_0006.png::CompressedTexture2D::2748347818444542953::1712165611::1712165667::1::::<><>::
+tile_0007.png::CompressedTexture2D::4657906136626249017::1712165611::1712165667::1::::<><>::
+tile_0008.png::CompressedTexture2D::8048628152863479621::1712165611::1712165667::1::::<><>::
+tile_0009.png::CompressedTexture2D::8383244635295069477::1712165611::1712165667::1::::<><>::
+tile_0010.png::CompressedTexture2D::797042807327507920::1712165611::1712165667::1::::<><>::
+tile_0011.png::CompressedTexture2D::5998619700352590978::1712165611::1712165667::1::::<><>::
+tile_0012.png::CompressedTexture2D::4360106509629294022::1712165611::1712165667::1::::<><>::
+tile_0013.png::CompressedTexture2D::2662569193324014254::1712165611::1712165667::1::::<><>::
+tile_0014.png::CompressedTexture2D::7153282261338035532::1712165611::1712165667::1::::<><>::
+tile_0015.png::CompressedTexture2D::62411092786979163::1712165611::1712165667::1::::<><>::
+tile_0016.png::CompressedTexture2D::18034815640537174::1712165612::1712165667::1::::<><>::
+tile_0017.png::CompressedTexture2D::7201256522511330548::1712165612::1712165667::1::::<><>::
+tile_0018.png::CompressedTexture2D::5607348367207809141::1712165612::1712165667::1::::<><>::
+tile_0019.png::CompressedTexture2D::3496276370945545870::1712165612::1712165667::1::::<><>::
+tile_0020.png::CompressedTexture2D::5676046700137383768::1712165612::1712165667::1::::<><>::
+tile_0021.png::CompressedTexture2D::2517743723699746962::1712165612::1712165667::1::::<><>::
+tile_0022.png::CompressedTexture2D::6311955847698908504::1712165612::1712165667::1::::<><>::
+tile_0023.png::CompressedTexture2D::1774024854183394330::1712165612::1712165667::1::::<><>::
+tile_0024.png::CompressedTexture2D::1965995864917283930::1712165612::1712165667::1::::<><>::
+tile_0025.png::CompressedTexture2D::8657737205157038876::1712165612::1712165667::1::::<><>::
+tile_0026.png::CompressedTexture2D::663211979674983660::1712165612::1712165667::1::::<><>::
+tile_0027.png::CompressedTexture2D::3780496252765102174::1712165612::1712165667::1::::<><>::
+tile_0028.png::CompressedTexture2D::6525846846454083688::1712165612::1712165667::1::::<><>::
+tile_0029.png::CompressedTexture2D::4884424720571664042::1712165612::1712165667::1::::<><>::
+tile_0030.png::CompressedTexture2D::6039082387908005868::1712165612::1712165667::1::::<><>::
+tile_0031.png::CompressedTexture2D::3322813199800683446::1712165612::1712165667::1::::<><>::
+tile_0032.png::CompressedTexture2D::3509176320125148175::1712165612::1712165667::1::::<><>::
+tile_0033.png::CompressedTexture2D::8127699067149918630::1712165612::1712165667::1::::<><>::
+tile_0034.png::CompressedTexture2D::2532004906225794680::1712165612::1712165667::1::::<><>::
+tile_0035.png::CompressedTexture2D::2970559805391385460::1712165612::1712165667::1::::<><>::
+tile_0036.png::CompressedTexture2D::792058711316946585::1712165612::1712165667::1::::<><>::
+tile_0037.png::CompressedTexture2D::8364574321497598048::1712165612::1712165667::1::::<><>::
+tile_0038.png::CompressedTexture2D::3189408528626504934::1712165612::1712165667::1::::<><>::
+tile_0039.png::CompressedTexture2D::8116513687122605780::1712165612::1712165667::1::::<><>::
+tile_0040.png::CompressedTexture2D::3688270174514917756::1712165612::1712165667::1::::<><>::
+tile_0041.png::CompressedTexture2D::1652305630617625586::1712165612::1712165667::1::::<><>::
+tile_0042.png::CompressedTexture2D::317072775503357240::1712165612::1712165667::1::::<><>::
+tile_0043.png::CompressedTexture2D::6703057861064292177::1712165612::1712165667::1::::<><>::
+tile_0044.png::CompressedTexture2D::8963902600338410486::1712165612::1712165667::1::::<><>::
+tile_0045.png::CompressedTexture2D::3128787723312223061::1712165612::1712165667::1::::<><>::
+tile_0046.png::CompressedTexture2D::2497239107376383333::1712165612::1712165667::1::::<><>::
+tile_0047.png::CompressedTexture2D::200920486593999377::1712165613::1712165667::1::::<><>::
+tile_0048.png::CompressedTexture2D::5089649790888046099::1712165613::1712165668::1::::<><>::
+tile_0049.png::CompressedTexture2D::3662968233686189966::1712165613::1712165668::1::::<><>::
+tile_0050.png::CompressedTexture2D::6594778293284838171::1712165613::1712165668::1::::<><>::
+tile_0051.png::CompressedTexture2D::2497742967216031626::1712165613::1712165668::1::::<><>::
+tile_0052.png::CompressedTexture2D::6337579438246925160::1712165613::1712165668::1::::<><>::
+tile_0053.png::CompressedTexture2D::3903551439009458641::1712165613::1712165668::1::::<><>::
+tile_0054.png::CompressedTexture2D::7449797492093122669::1712165613::1712165668::1::::<><>::
+tile_0055.png::CompressedTexture2D::800961852833396593::1712165613::1712165668::1::::<><>::
+tile_0056.png::CompressedTexture2D::6531523196195569317::1712165613::1712165668::1::::<><>::
+tile_0057.png::CompressedTexture2D::7372227944586592721::1712165613::1712165668::1::::<><>::
+tile_0058.png::CompressedTexture2D::4641460626745734211::1712165613::1712165668::1::::<><>::
+tile_0059.png::CompressedTexture2D::5412108899767374010::1712165613::1712165668::1::::<><>::
+tile_0060.png::CompressedTexture2D::6687299193868286948::1712165613::1712165668::1::::<><>::
+tile_0061.png::CompressedTexture2D::9060632872636381924::1712165613::1712165668::1::::<><>::
+tile_0062.png::CompressedTexture2D::6691118461051622884::1712165613::1712165668::1::::<><>::
+tile_0063.png::CompressedTexture2D::4383501482284486758::1712165613::1712165668::1::::<><>::
+::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/::1712165668
+tile_0000.png::CompressedTexture2D::4006416832612574746::1712165613::1712165668::1::::<><>::
+tile_0001.png::CompressedTexture2D::1146594765917320476::1712165613::1712165668::1::::<><>::
+tile_0002.png::CompressedTexture2D::2248017676021981450::1712165613::1712165668::1::::<><>::
+tile_0003.png::CompressedTexture2D::8824094707341159663::1712165613::1712165668::1::::<><>::
+tile_0004.png::CompressedTexture2D::3683265036091247922::1712165613::1712165668::1::::<><>::
+tile_0005.png::CompressedTexture2D::3629752487731947812::1712165613::1712165668::1::::<><>::
+tile_0006.png::CompressedTexture2D::7268758304175687194::1712165613::1712165668::1::::<><>::
+tile_0007.png::CompressedTexture2D::3686148316270912415::1712165613::1712165668::1::::<><>::
+tile_0008.png::CompressedTexture2D::3493727007317279516::1712165613::1712165668::1::::<><>::
+tile_0009.png::CompressedTexture2D::6479770731318593779::1712165613::1712165668::1::::<><>::
+tile_0010.png::CompressedTexture2D::8435632903978740864::1712165613::1712165668::1::::<><>::
+tile_0011.png::CompressedTexture2D::8886316358874483963::1712165613::1712165668::1::::<><>::
+tile_0012.png::CompressedTexture2D::273298239083871687::1712165614::1712165668::1::::<><>::
+tile_0013.png::CompressedTexture2D::3447752092317722627::1712165614::1712165668::1::::<><>::
+tile_0014.png::CompressedTexture2D::5151168220734493366::1712165614::1712165668::1::::<><>::
+tile_0015.png::CompressedTexture2D::6619283494724049002::1712165614::1712165668::1::::<><>::
+tile_0016.png::CompressedTexture2D::2275624318350255809::1712165614::1712165668::1::::<><>::
+tile_0017.png::CompressedTexture2D::3842751873691282972::1712165614::1712165668::1::::<><>::
+tile_0018.png::CompressedTexture2D::6729424481760526400::1712165614::1712165668::1::::<><>::
+tile_0019.png::CompressedTexture2D::868313602107045408::1712165614::1712165668::1::::<><>::
+tile_0020.png::CompressedTexture2D::4942517629171229276::1712165614::1712165668::1::::<><>::
+tile_0021.png::CompressedTexture2D::7153373129053807517::1712165614::1712165668::1::::<><>::
+tile_0022.png::CompressedTexture2D::4722910383219003198::1712165614::1712165668::1::::<><>::
+tile_0023.png::CompressedTexture2D::5288970450475059027::1712165614::1712165668::1::::<><>::
+tile_0024.png::CompressedTexture2D::2640917214957679395::1712165614::1712165668::1::::<><>::
+tile_0025.png::CompressedTexture2D::5754740919543289682::1712165614::1712165668::1::::<><>::
+tile_0026.png::CompressedTexture2D::965152650863353252::1712165614::1712165668::1::::<><>::
+tile_0027.png::CompressedTexture2D::3763161227349422659::1712165614::1712165668::1::::<><>::
+tile_0028.png::CompressedTexture2D::2189633713530410186::1712165614::1712165668::1::::<><>::
+tile_0029.png::CompressedTexture2D::5723725834729860499::1712165614::1712165668::1::::<><>::
+tile_0030.png::CompressedTexture2D::7876133842818661485::1712165614::1712165668::1::::<><>::
+tile_0031.png::CompressedTexture2D::5391344756622129524::1712165614::1712165668::1::::<><>::
+tile_0032.png::CompressedTexture2D::3444653807917806033::1712165614::1712165668::1::::<><>::
+tile_0033.png::CompressedTexture2D::7359309356495900610::1712165614::1712165668::1::::<><>::
+tile_0034.png::CompressedTexture2D::4732324861166398156::1712165614::1712165668::1::::<><>::
+tile_0035.png::CompressedTexture2D::2754564313025527691::1712165614::1712165668::1::::<><>::
+tile_0036.png::CompressedTexture2D::3046663321373917022::1712165614::1712165668::1::::<><>::
+tile_0037.png::CompressedTexture2D::2012420742239534802::1712165614::1712165668::1::::<><>::
+tile_0038.png::CompressedTexture2D::1697876353317338347::1712165614::1712165667::1::::<><>::
+tile_0039.png::CompressedTexture2D::8962578129866295699::1712165614::1712165667::1::::<><>::
+tile_0040.png::CompressedTexture2D::6197608846067642923::1712165614::1712165667::1::::<><>::
+tile_0041.png::CompressedTexture2D::7618986727980322742::1712165614::1712165667::1::::<><>::
+tile_0042.png::CompressedTexture2D::7727515234342704563::1712165614::1712165667::1::::<><>::
+tile_0043.png::CompressedTexture2D::5120063348671697817::1712165614::1712165667::1::::<><>::
+tile_0044.png::CompressedTexture2D::4640971601102329008::1712165615::1712165667::1::::<><>::
+tile_0045.png::CompressedTexture2D::2759018481489032921::1712165615::1712165667::1::::<><>::
+tile_0046.png::CompressedTexture2D::5705742649639006296::1712165615::1712165667::1::::<><>::
+tile_0047.png::CompressedTexture2D::4114199331416487858::1712165615::1712165667::1::::<><>::
+tile_0048.png::CompressedTexture2D::5119334108285412331::1712165615::1712165667::1::::<><>::
+tile_0049.png::CompressedTexture2D::7806897230827402206::1712165615::1712165667::1::::<><>::
+tile_0050.png::CompressedTexture2D::1711801581626616088::1712165615::1712165667::1::::<><>::
+tile_0051.png::CompressedTexture2D::8551313758743870918::1712165615::1712165667::1::::<><>::
+tile_0052.png::CompressedTexture2D::3196736563925656279::1712165615::1712165667::1::::<><>::
+tile_0053.png::CompressedTexture2D::7655381844007418424::1712165615::1712165667::1::::<><>::
+tile_0054.png::CompressedTexture2D::3166886483691426177::1712165615::1712165667::1::::<><>::
+tile_0055.png::CompressedTexture2D::8313353397402932970::1712165615::1712165667::1::::<><>::
+tile_0056.png::CompressedTexture2D::6867802989282968854::1712165615::1712165667::1::::<><>::
+tile_0057.png::CompressedTexture2D::1293640319711900291::1712165615::1712165667::1::::<><>::
+tile_0058.png::CompressedTexture2D::2974395779519586041::1712165615::1712165667::1::::<><>::
+tile_0059.png::CompressedTexture2D::2212511875730657329::1712165615::1712165667::1::::<><>::
+tile_0060.png::CompressedTexture2D::7781597500655076704::1712165615::1712165667::1::::<><>::
+tile_0061.png::CompressedTexture2D::6424018883758294992::1712165615::1712165667::1::::<><>::
+tile_0062.png::CompressedTexture2D::2426703805372712684::1712165615::1712165667::1::::<><>::
+tile_0063.png::CompressedTexture2D::1037009061646165518::1712165615::1712165667::1::::<><>::
+::res://resources/textures/orange/::1712165668
+texture_01.png::CompressedTexture2D::5558505345294041113::1712165615::1712165668::1::::<><>::
+texture_02.png::CompressedTexture2D::5135295449469028922::1712165615::1712165668::1::::<><>::
+texture_03.png::CompressedTexture2D::8210661392902364569::1712165615::1712165668::1::::<><>::
+texture_04.png::CompressedTexture2D::6676533539164594534::1712165615::1712165668::1::::<><>::
+texture_05.png::CompressedTexture2D::3274041550103537473::1712165615::1712165668::1::::<><>::
+texture_06.png::CompressedTexture2D::6776947395508371659::1712165615::1712165668::1::::<><>::
+texture_07.png::CompressedTexture2D::8450366403568792367::1712165615::1712165668::1::::<><>::
+texture_08.png::CompressedTexture2D::4268380465141622745::1712165615::1712165668::1::::<><>::
+texture_09.png::CompressedTexture2D::1714295247157162272::1712165616::1712165668::1::::<><>::
+texture_10.png::CompressedTexture2D::4641175782063585944::1712165616::1712165668::1::::<><>::
+texture_11.png::CompressedTexture2D::810498163563809612::1712165616::1712165668::1::::<><>::
+texture_12.png::CompressedTexture2D::4766850768602270668::1712165616::1712165668::1::::<><>::
+texture_13.png::CompressedTexture2D::7650414545386919133::1712165616::1712165668::1::::<><>::
+::res://resources/textures/purple/::1712165668
+texture_01.png::CompressedTexture2D::7045230665446139939::1712165616::1712165668::1::::<><>::
+texture_02.png::CompressedTexture2D::3575115269513856910::1712165616::1712165668::1::::<><>::
+texture_03.png::CompressedTexture2D::9050669827144760275::1712165616::1712165668::1::::<><>::
+texture_04.png::CompressedTexture2D::4105712539533061527::1712165616::1712165668::1::::<><>::
+texture_05.png::CompressedTexture2D::1791542952254952757::1712165616::1712165668::1::::<><>::
+texture_06.png::CompressedTexture2D::228663830054528995::1712165616::1712165668::1::::<><>::
+texture_07.png::CompressedTexture2D::4675730654602800232::1712165616::1712165668::1::::<><>::
+texture_08.png::CompressedTexture2D::4464213120338110273::1712165616::1712165668::1::::<><>::
+texture_09.png::CompressedTexture2D::7101158514394498062::1712165616::1712165668::1::::<><>::
+texture_10.png::CompressedTexture2D::5360092032181445171::1712165616::1712165668::1::::<><>::
+texture_11.png::CompressedTexture2D::1307776159321703066::1712165616::1712165668::1::::<><>::
+texture_12.png::CompressedTexture2D::4257326230138671576::1712165616::1712165668::1::::<><>::
+texture_13.png::CompressedTexture2D::2523944510377235540::1712165616::1712165668::1::::<><>::

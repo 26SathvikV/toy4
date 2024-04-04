@@ -1,0 +1,50 @@
+[gd_scene load_steps=9 format=3 uid="uid://culun8f4of417"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_b1bj3"]
+[ext_resource type="Script" path="res://code/audioPlayer.gd" id="2_fb5vx"]
+[ext_resource type="AudioStream" uid="uid://ha5tsncqhbt7" path="res://resources/sounds/music/bass.wav" id="3_o4ckf"]
+[ext_resource type="AudioStream" uid="uid://b0nja7qxqsyyv" path="res://resources/sounds/music/chords1.wav" id="4_f4n2f"]
+[ext_resource type="AudioStream" uid="uid://ddkyerm5hxb2r" path="res://resources/sounds/music/chords2.wav" id="5_jw45a"]
+[ext_resource type="AudioStream" uid="uid://ddebarqqnsosx" path="res://resources/sounds/music/drums.wav" id="6_12ssi"]
+[ext_resource type="AudioStream" uid="uid://cds1nisilkac3" path="res://resources/sounds/spawn.wav" id="7_iend4"]
+[ext_resource type="AudioStream" uid="uid://c208ssrd23opg" path="res://resources/sounds/death.wav" id="8_exjxg"]
+
+[node name="main" type="Node3D"]
+script = ExtResource("1_b1bj3")
+
+[node name="camera" type="Camera3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(-4.37114e-08, 0.707107, -0.707107, 0, 0.707107, 0.707107, 1, 3.09086e-08, -3.09086e-08, -3, 3.5, 0)
+projection = 1
+size = 5.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="camera"]
+transform = Transform3D(1, -4.2222e-08, -3.2398e-08, 5.27643e-08, 0.866025, 0.5, 6.94656e-09, -0.5, 0.866025, -1.31134e-07, -0.353554, -4.59619)
+sky_mode = 1
+
+[node name="playerCharacters" type="Node3D" parent="."]
+unique_name_in_owner = true
+
+[node name="level" type="Node3D" parent="."]
+unique_name_in_owner = true
+
+[node name="audioPlayer" type="Node" parent="."]
+script = ExtResource("2_fb5vx")
+
+[node name="bass" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("3_o4ckf")
+
+[node name="chords1" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("4_f4n2f")
+
+[node name="chords2" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("5_jw45a")
+
+[node name="drums" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("6_12ssi")
+
+[node name="spawn" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("7_iend4")
+
+[node name="death" type="AudioStreamPlayer" parent="audioPlayer"]
+stream = ExtResource("8_exjxg")

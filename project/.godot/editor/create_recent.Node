@@ -1,10 +1,6 @@
-Control
-Sprite2D
-Node3D
+AudioStreamPlayer
+AudioPlayer
+Node
 OmniLight3D
+SpotLight3D
 DirectionalLight3D
-StaticBody3D
-CollisionShape3D
-WorldEnvironment
-AnimationPlayer
-MeshInstance3D

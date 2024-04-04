@@ -1,0 +1,247 @@
+[gd_scene load_steps=12 format=3 uid="uid://djl7lhfri6dg4"]
+
+[ext_resource type="Script" path="res://code/gui.gd" id="1_13mgx"]
+[ext_resource type="Texture2D" uid="uid://c88cwfuk7xv68" path="res://resources/materials/bgs/title.png" id="2_h4xoi"]
+[ext_resource type="FontFile" uid="uid://cinimdaeyn5mq" path="res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf" id="3_jhfkq"]
+[ext_resource type="Texture2D" uid="uid://ctq4uhowk1lai" path="res://resources/materials/button.png" id="4_bkapy"]
+[ext_resource type="Texture2D" uid="uid://bmm5vjj35l2to" path="res://resources/materials/bgs/death.png" id="5_w3rhy"]
+[ext_resource type="Texture2D" uid="uid://cq85y42sen74w" path="res://resources/materials/winButton.png" id="6_61fyr"]
+[ext_resource type="Texture2D" uid="uid://cwyuf7bl288q" path="res://resources/materials/bgs/win.png" id="6_anrjk"]
+
+[sub_resource type="Theme" id="Theme_tqqj5"]
+default_font = ExtResource("3_jhfkq")
+default_font_size = 265
+
+[sub_resource type="Theme" id="Theme_s3jl3"]
+default_font_size = 40
+
+[sub_resource type="Theme" id="Theme_gqiyq"]
+default_font = ExtResource("3_jhfkq")
+default_font_size = 265
+
+[sub_resource type="Theme" id="Theme_lwk0u"]
+default_font_size = 40
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_13mgx")
+
+[node name="title" type="Node2D" parent="."]
+visible = false
+
+[node name="titleBg" type="Sprite2D" parent="title"]
+position = Vector2(575, 325)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_h4xoi")
+
+[node name="title" type="RichTextLabel" parent="title/titleBg"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4000.0
+offset_top = -2937.5
+offset_right = -2000.0
+offset_bottom = -2187.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_tqqj5")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "[center]Gray Goo
+Scenario[/center]"
+metadata/_edit_use_anchors_ = true
+
+[node name="playButton" type="Button" parent="title/titleBg"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1887.5
+offset_right = -3231.0
+offset_bottom = -1802.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+size_flags_horizontal = 4
+theme = SubResource("Theme_s3jl3")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Play"
+icon = ExtResource("4_bkapy")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="quitButton" type="Button" parent="title/titleBg"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1387.5
+offset_right = -3231.0
+offset_bottom = -1302.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+theme = SubResource("Theme_s3jl3")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Quit"
+icon = ExtResource("4_bkapy")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="death" type="Node2D" parent="."]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="death"]
+position = Vector2(575, 325)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_w3rhy")
+
+[node name="title" type="RichTextLabel" parent="death/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4000.0
+offset_top = -2937.5
+offset_right = -2000.0
+offset_bottom = -2187.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_gqiyq")
+theme_override_colors/default_color = Color(0.729412, 0.819608, 1, 1)
+bbcode_enabled = true
+text = "[center]Try Again?[/center]"
+metadata/_edit_use_anchors_ = true
+
+[node name="retryButton" type="Button" parent="death/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1887.5
+offset_right = -3231.0
+offset_bottom = -1802.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+size_flags_horizontal = 4
+theme = SubResource("Theme_lwk0u")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Retry"
+icon = ExtResource("4_bkapy")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="quitButton" type="Button" parent="death/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1387.5
+offset_right = -3231.0
+offset_bottom = -1302.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+theme = SubResource("Theme_lwk0u")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Quit"
+icon = ExtResource("4_bkapy")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="win" type="Node2D" parent="."]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="win"]
+position = Vector2(575, 325)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_anrjk")
+
+[node name="title" type="RichTextLabel" parent="win/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4000.0
+offset_top = -2937.5
+offset_right = -2000.0
+offset_bottom = -2187.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_gqiyq")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "[center]You Finished the Tutorial![/center]"
+metadata/_edit_use_anchors_ = true
+
+[node name="playAgainButton" type="Button" parent="win/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1887.5
+offset_right = -3231.0
+offset_bottom = -1802.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+size_flags_horizontal = 4
+theme = SubResource("Theme_lwk0u")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Play Again"
+icon = ExtResource("6_61fyr")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="quitButton" type="Button" parent="win/Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3539.0
+offset_top = -1387.5
+offset_right = -3231.0
+offset_bottom = -1302.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.5, 3.5)
+theme = SubResource("Theme_lwk0u")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Quit"
+icon = ExtResource("6_61fyr")
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="title/titleBg/playButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="title/titleBg/quitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="death/Sprite2D/retryButton" to="." method="_on_retry_button_pressed"]
+[connection signal="pressed" from="death/Sprite2D/quitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="win/Sprite2D/quitButton" to="." method="_on_quit_button_pressed"]
