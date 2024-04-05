@@ -44,7 +44,6 @@ func loadLevelCallback() -> void:
 	currentLevel.ready.disconnect(loadLevelCallback);
 
 func unloadLevel(index: int) -> void:
-	print("attempting to unload level");
 	if (currentLevel != null):
 		currentLevel.queue_free()
 		currentLevelIndex = -1

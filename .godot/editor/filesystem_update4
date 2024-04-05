@@ -1,4 +1,9 @@
 res://title.tscn
-res://resources/materials/deadPlayer.tres
-res://code/controller.gd
 res://gui.tscn
+res://resources/levels/level1.tscn
+res://resources/meshLibrary/testMeshLib.tres
+res://resources/levels/level1.gd
+res://code/player.gd
+res://code/end.gd
+res://code/gui.gd
+res://code/controller.gd

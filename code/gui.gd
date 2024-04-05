@@ -1,8 +1,10 @@
 extends Control
 
 var revive = false
+var currentState = 0;
 
 func changeGUI(stage : int):
+	currentState = stage;
 	if (stage == 0):
 		$title.visible = true
 		$death.visible = false
