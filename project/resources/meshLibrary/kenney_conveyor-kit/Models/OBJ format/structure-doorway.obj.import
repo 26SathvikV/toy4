@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://domkflk3cr6p1"
+path="res://.godot/imported/structure-doorway.obj-64530d6d398b75791945fa66a5f00133.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-doorway.obj-64530d6d398b75791945fa66a5f00133.mesh"]
+
+source_file="res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/structure-doorway.obj"
+dest_files=["res://.godot/imported/structure-doorway.obj-64530d6d398b75791945fa66a5f00133.mesh", "res://.godot/imported/structure-doorway.obj-64530d6d398b75791945fa66a5f00133.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c86ehxkbflbfv"
+path="res://.godot/imported/cover-stripe-bar.obj-c94446a6ba30f640a90439342ef2e4ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-stripe-bar.obj-c94446a6ba30f640a90439342ef2e4ad.mesh"]
+
+source_file="res://resources/meshLibrary/kenney_conveyor-kit/Models/OBJ format/cover-stripe-bar.obj"
+dest_files=["res://.godot/imported/cover-stripe-bar.obj-c94446a6ba30f640a90439342ef2e4ad.mesh", "res://.godot/imported/cover-stripe-bar.obj-c94446a6ba30f640a90439342ef2e4ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
