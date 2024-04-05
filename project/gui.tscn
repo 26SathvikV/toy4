@@ -244,4 +244,5 @@ metadata/_edit_use_anchors_ = true
 [connection signal="pressed" from="title/titleBg/quitButton" to="." method="_on_quit_button_pressed"]
 [connection signal="pressed" from="death/Sprite2D/retryButton" to="." method="_on_retry_button_pressed"]
 [connection signal="pressed" from="death/Sprite2D/quitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="win/Sprite2D/playAgainButton" to="." method="_on_play_again_button_pressed"]
 [connection signal="pressed" from="win/Sprite2D/quitButton" to="." method="_on_quit_button_pressed"]

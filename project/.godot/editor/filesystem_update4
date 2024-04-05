@@ -1,8 +1,9 @@
-res://resources/prefabs/player.tscn
-res://resources/meshLibrary/testMeshLib.tres
 res://main.tscn
+res://resources/meshLibrary/testMeshLib.tres
 res://resources/levels/level1.tscn
+res://resources/prefabs/player.tscn
 res://gui.tscn
+res://resources/levels/end.gd
+res://code/end.gd
+res://code/level1.gd
 res://code/gui.gd
-res://resources/levels/level1.gd
-res://code/player.gd

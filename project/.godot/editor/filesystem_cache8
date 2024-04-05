@@ -1,19 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712249111
-gui.tscn::PackedScene::7815632762789520973::1712249111::0::1::::<><>::res://code/gui.gd<>uid://c88cwfuk7xv68::::res://resources/materials/bgs/title.png<>uid://cinimdaeyn5mq::::res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf<>uid://ctq4uhowk1lai::::res://resources/materials/button.png<>uid://bmm5vjj35l2to::::res://resources/materials/bgs/death.png<>uid://cq85y42sen74w::::res://resources/materials/winButton.png<>uid://cwyuf7bl288q::::res://resources/materials/bgs/win.png
+::res://::1712360342
+gui.tscn::PackedScene::7815632762789520973::1712360342::0::1::::<><>::res://code/gui.gd<>uid://c88cwfuk7xv68::::res://resources/materials/bgs/title.png<>uid://cinimdaeyn5mq::::res://resources/fonts/Madimi_One/MadimiOne-Regular.ttf<>uid://ctq4uhowk1lai::::res://resources/materials/button.png<>uid://bmm5vjj35l2to::::res://resources/materials/bgs/death.png<>uid://cq85y42sen74w::::res://resources/materials/winButton.png<>uid://cwyuf7bl288q::::res://resources/materials/bgs/win.png
 icon.svg::CompressedTexture2D::5854819578207480252::1712165596::1712165667::1::::<><>::
 main.gd::GDScript::-1::1712165596::0::1::::<>Node3D<>::
-main.tscn::PackedScene::6200565692948744048::1712249111::0::1::::<><>::res://main.gd
-::res://code/::1712249108
-audioPlayer.gd::GDScript::-1::1712248934::0::1::::AudioPlayer<>Node<>::
+main.tscn::PackedScene::6200565692948744048::1712360342::0::1::::<><>::res://main.gd<>res://code/audioPlayer.gd<>uid://ha5tsncqhbt7::::res://resources/sounds/music/bass.wav<>uid://b0nja7qxqsyyv::::res://resources/sounds/music/chords1.wav<>uid://ddkyerm5hxb2r::::res://resources/sounds/music/chords2.wav<>uid://ddebarqqnsosx::::res://resources/sounds/music/drums.wav<>uid://cds1nisilkac3::::res://resources/sounds/spawn.wav<>uid://c208ssrd23opg::::res://resources/sounds/death.wav
+::res://code/::1712360303
+audioPlayer.gd::GDScript::-1::1712360275::0::1::::AudioPlayer<>Node<>::
 cloneTrigger.gd::GDScript::-1::1712165596::0::1::::<>Area3D<>::
 controller.gd::GDScript::-1::1712165596::0::1::::<>Node3D<>::
 gui.gd::GDScript::-1::1712248361::0::1::::<>Control<>::
 laser.gd::GDScript::-1::1712165596::0::1::::<>Area3D<>::
 level.gd::GDScript::-1::1712165596::0::1::::<>GridMap<>::
-player.gd::GDScript::-1::1712249108::0::1::::<>CharacterBody3D<>::
+player.gd::GDScript::-1::1712249965::0::1::::<>CharacterBody3D<>::
 resources.gd::GDScript::-1::1712165596::0::1::::<>Node<>::
-::res://resources/::1712249501
+::res://resources/::1712360292
 ::res://resources/fonts/::1712165596
 ::res://resources/fonts/Madimi_One/::1712165667
 MadimiOne-Regular.ttf::FontFile::5361696350546638984::1712165596::1712165667::1::::<><>::
@@ -60,11 +60,12 @@ OpenSans_SemiCondensed-MediumItalic.ttf::FontFile::314104018735237631::171216559
 OpenSans_SemiCondensed-Regular.ttf::FontFile::3209541874888416258::1712165597::1712165667::1::::<><>::
 OpenSans_SemiCondensed-SemiBold.ttf::FontFile::1973240472232763387::1712165597::1712165667::1::::<><>::
 OpenSans_SemiCondensed-SemiBoldItalic.ttf::FontFile::40419786329272822::1712165597::1712165667::1::::<><>::
-::res://resources/levels/::1712249264
+::res://resources/levels/::1712360447
 Button1.gd::GDScript::-1::1712165597::0::1::::<>Area3D<>::
 laserMovement.gd::GDScript::-1::1712165597::0::1::::<>MeshInstance3D<>::
 level1.gd::GDScript::-1::1712248429::0::1::::<>GridMap<>::
-level1.tscn::PackedScene::9149552530463543517::1712249264::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://resources/levels/level1.gd<>res://code/cloneTrigger.gd<>res://code/laser.gd<>uid://bjn3dnl0sf5ne::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0036.png<>uid://d5nggqaqf8il::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0012.png<>res://resources/levels/laserMovement.gd<>uid://bpintglddkyvh::::res://resources/meshLibrary/button/button.obj<>uid://djl7lhfri6dg4::::res://gui.tscn
+level1.tscn::PackedScene::9149552530463543517::1712360492::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://resources/levels/level1.gd<>res://code/cloneTrigger.gd<>res://code/laser.gd<>uid://bjn3dnl0sf5ne::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0036.png<>uid://d5nggqaqf8il::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0012.png<>res://resources/levels/end.gd<>res://resources/levels/laserMovement.gd<>uid://bpintglddkyvh::::res://resources/meshLibrary/button/button.obj<>uid://djl7lhfri6dg4::::res://gui.tscn
+end.gd::GDScript::-1::1712360470::0::1::::<>Area3D<>::
 test.tscn::PackedScene::665599396346466580::1712165598::0::1::::<><>::uid://dus3m8fgbhrmr::::res://resources/meshLibrary/testMeshLib.tres<>res://code/cloneTrigger.gd<>res://code/level.gd<>res://code/laser.gd
 ::res://resources/materials/::1712248045
 button.png::CompressedTexture2D::6141256339546789348::1712165598::1712165668::1::::<><>::
@@ -86,9 +87,9 @@ orangeMaterial6.tres::StandardMaterial3D::520955379628148835::1712165598::0::1::
 orangeMaterial4.tres::StandardMaterial3D::5659990913964572683::1712165598::0::1::::<><>::uid://0r3pk8mqlfw4::::res://resources/textures/purple/texture_05.png
 orangeMaterial5.tres::StandardMaterial3D::3251391918291877132::1712165598::0::1::::<><>::uid://di1cbhif2hkl::::res://resources/textures/purple/texture_06.png
 orangeMaterial6.tres::StandardMaterial3D::6017065631082473573::1712165598::0::1::::<><>::uid://b7u7uop24jjam::::res://resources/textures/purple/texture_07.png
-::res://resources/meshLibrary/::1712247655
+::res://resources/meshLibrary/::1712360315
 src.tscn::PackedScene::1115269152787235634::1712165598::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://l0k5fcco1hmc::::res://resources/materials/orange/orangeMaterial4.tres<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://cmv0hujhqohod::::res://resources/materials/purple/orangeMaterial4.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
-testMeshLib.tres::MeshLibrary::8601920970006167477::1712247655::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://qloipag56bwu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0001.png<>uid://bkpu1kd4jo2h::::res://resources/meshLibrary/kenney_conveyor-kit/Previews/floor.png<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
+testMeshLib.tres::MeshLibrary::8601920970006167477::1712360315::0::1::::<><>::uid://dpqf5yt6mqyyn::::res://resources/materials/dark/darkMaterial4.tres<>uid://4jfwfxw6fdcs::::res://resources/materials/dark/darkMaterial5.tres<>uid://bucfxognl7d2h::::res://resources/materials/dark/darkMaterial6.tres<>uid://qloipag56bwu::::res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0001.png<>uid://bkpu1kd4jo2h::::res://resources/meshLibrary/kenney_conveyor-kit/Previews/floor.png<>uid://dh0wg32uuc31c::::res://resources/materials/orange/orangeMaterial5.tres<>uid://homcagsnbb3p::::res://resources/materials/orange/orangeMaterial6.tres<>uid://bmk87kbkcfja7::::res://resources/materials/purple/orangeMaterial5.tres<>uid://cryygr1chjnq0::::res://resources/materials/purple/orangeMaterial6.tres
 ::res://resources/meshLibrary/button/::1712165671
 button.obj::Mesh::3456591943559908305::1712165598::1712165671::1::::<><>::
 ::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/::1712165669
@@ -367,16 +368,16 @@ structure-yellow-short.png::CompressedTexture2D::2308897504322395112::1712165610
 structure-yellow-tall.png::CompressedTexture2D::1386377205821728908::1712165610::1712165667::1::::<><>::
 top-large.png::CompressedTexture2D::1985908132909326745::1712165610::1712165667::1::::<><>::
 top.png::CompressedTexture2D::1874222828395629442::1712165610::1712165667::1::::<><>::
-::res://resources/prefabs/::1712249111
-player.tscn::PackedScene::6136664469919300523::1712249111::0::1::::<><>::res://code/player.gd<>uid://4rpqcg8xjv1e::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_rogue_texture.png
-::res://resources/sounds/::1712249501
-death.wav::AudioStreamWAV::6721586366371634540::1712248934::1712249506::1::::<><>::
-spawn.wav::AudioStreamWAV::5022169003377923808::1712248934::1712249506::1::::<><>::
-::res://resources/sounds/music/::1712249501
-bass.wav::AudioStreamWAV::493178310948702818::1712248934::1712249506::1::::<><>::
-chords1.wav::AudioStreamWAV::4168526844912793365::1712248934::1712249506::1::::<><>::
-chords2.wav::AudioStreamWAV::7391937623343941395::1712248934::1712249506::1::::<><>::
-drums.wav::AudioStreamWAV::7378147728361292435::1712248934::1712249506::1::::<><>::
+::res://resources/prefabs/::1712360342
+player.tscn::PackedScene::6136664469919300523::1712360342::0::1::::<><>::res://code/player.gd<>uid://4rpqcg8xjv1e::::res://resources/meshLibrary/KayKit_Adventurers_1.0_FREE/Characters/gltf/Rogue_rogue_texture.png
+::res://resources/sounds/::1712360275
+death.wav::AudioStreamWAV::6721586366371634540::1712360275::1712360275::1::::<><>::
+spawn.wav::AudioStreamWAV::5022169003377923808::1712360275::1712360275::1::::<><>::
+::res://resources/sounds/music/::1712360276
+bass.wav::AudioStreamWAV::493178310948702818::1712360276::1712360276::1::::<><>::
+chords1.wav::AudioStreamWAV::4168526844912793365::1712360276::1712360276::1::::<><>::
+chords2.wav::AudioStreamWAV::7391937623343941395::1712360276::1712360276::1::::<><>::
+drums.wav::AudioStreamWAV::7378147728361292435::1712360276::1712360276::1::::<><>::
 ::res://resources/textures/::1712165616
 ::res://resources/textures/dark/::1712165667
 texture_02.png::CompressedTexture2D::641320338228599924::1712165610::1712165667::1::::<><>::

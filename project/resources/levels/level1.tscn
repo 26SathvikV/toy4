@@ -1,12 +1,13 @@
-[gd_scene load_steps=35 format=3 uid="uid://d3md18gg4bcnd"]
+[gd_scene load_steps=36 format=3 uid="uid://d3md18gg4bcnd"]
 
 [ext_resource type="MeshLibrary" uid="uid://dus3m8fgbhrmr" path="res://resources/meshLibrary/testMeshLib.tres" id="1_f6cxi"]
-[ext_resource type="Script" path="res://resources/levels/level1.gd" id="1_qsjch"]
+[ext_resource type="Script" path="res://code/level1.gd" id="1_qsjch"]
 [ext_resource type="Script" path="res://code/cloneTrigger.gd" id="2_df2vf"]
 [ext_resource type="Script" path="res://code/laser.gd" id="3_285h5"]
 [ext_resource type="Texture2D" uid="uid://bjn3dnl0sf5ne" path="res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0036.png" id="4_lbdvk"]
 [ext_resource type="Texture2D" uid="uid://d5nggqaqf8il" path="res://resources/textures/kenney_pattern-pack-pixel/Tiles (Grayscale)/tile_0012.png" id="5_6bvvw"]
-[ext_resource type="Script" path="res://resources/levels/laserMovement.gd" id="6_ie8wm"]
+[ext_resource type="Script" path="res://code/end.gd" id="5_af5ii"]
+[ext_resource type="Script" path="res://code/laserMovement.gd" id="6_ie8wm"]
 [ext_resource type="ArrayMesh" uid="uid://bpintglddkyvh" path="res://resources/meshLibrary/button/button.obj" id="8_ybh81"]
 [ext_resource type="PackedScene" uid="uid://djl7lhfri6dg4" path="res://gui.tscn" id="9_2w8yt"]
 
@@ -175,14 +176,13 @@ mesh = SubResource("BoxMesh_i5577")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.628327, 0.0651228, -2.51034)
 
 [node name="end" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.49191, 0.119249, 0.11777)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.496, 0.183, 0.126)
+script = ExtResource("5_af5ii")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="end"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00448608, 0.0635888, 0.00811023)
 shape = SubResource("BoxShape3D_pgsru")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="end"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.116764)
 light_energy = 2.14
 
 [node name="laser" type="Area3D" parent="." groups=["hazard", "laser"]]
@@ -333,7 +333,7 @@ environment = SubResource("Environment_odqf7")
 
 [connection signal="body_entered" from="cloneTrigger" to="cloneTrigger" method="_on_body_entered"]
 [connection signal="body_exited" from="cloneTrigger" to="cloneTrigger" method="_on_body_exited"]
-[connection signal="area_entered" from="end" to="." method="_on_end_area_entered"]
+[connection signal="body_entered" from="end" to="end" method="_on_body_entered"]
 [connection signal="body_entered" from="laser" to="laser" method="_on_body_entered"]
 [connection signal="body_entered" from="laser2" to="laser2" method="_on_body_entered"]
 [connection signal="body_entered" from="laser3" to="laser3" method="_on_body_entered"]
